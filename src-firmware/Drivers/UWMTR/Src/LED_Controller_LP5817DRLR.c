@@ -16,3 +16,11 @@
 #define OUT1_MANUAL_PWM 0x19
 #define OUT2_MANUAL_PWM 0x1A
 #define FLAG 0x40
+
+led_controller_lp5817drlr_state_t led_controller_lp5817drlr_set_led_colour(led_controller_lp5817drlr_colour_t led_colour) {
+    return LED_CONTROLLER_LP5817DRLR_NOT_IMPLEMENTED; 
+}
+
+led_controller_lp5817drlr_state_t led_controller_lp5817drlr_get_led_colour(led_controller_lp5817drlr_colour_t *led_colour) {
+    return LED_CONTROLLER_LP5817DRLR_NOT_IMPLEMENTED;
+}

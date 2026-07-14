@@ -4,7 +4,7 @@
 Note only independent mode will be implemented.
 */
 
-#include "stm32f4xx_hal_i2c.h"
+#include "main.h"
 
 #define LED_CONTROLLER_LP5817DRLR_I2C_ADDRESS 0x2D // Read = (0x2D << 1 + 1), Write = (0x2D << 1)
 
@@ -26,10 +26,6 @@ typedef enum {
     LED_CONTROLLER_LP5817DRLR_NOT_IMPLEMENTED,
 } led_controller_lp5817drlr_state_t;
 
-led_controller_lp5817drlr_state_t led_controller_lp5817drlr_set_led_colour(led_controller_lp5817drlr_colour_t led_colour) {
-    return LED_CONTROLLER_LP5817DRLR_NOT_IMPLEMENTED; 
-}
+led_controller_lp5817drlr_state_t led_controller_lp5817drlr_set_led_colour(led_controller_lp5817drlr_colour_t led_colour);
 
-led_controller_lp5817drlr_state_t led_controller_lp5817drlr_get_led_colour(led_controller_lp5817drlr_colour_t &led_colour) {
-    return LED_CONTROLLER_LP5817DRLR_NOT_IMPLEMENTED;
-}
+led_controller_lp5817drlr_state_t led_controller_lp5817drlr_get_led_colour(led_controller_lp5817drlr_colour_t *led_colour);
