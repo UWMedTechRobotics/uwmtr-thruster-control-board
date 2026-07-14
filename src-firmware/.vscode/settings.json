@@ -3,12 +3,8 @@
     "cmake.configureArgs": [
         "-DCMAKE_COMMAND=cube-cmake"
     ],
-    "editor.rulers": [
-        80,
-        120
-    ],
     "cmake.preferredGenerators": [
         "Ninja"
     ],
-    "stm32cube-ide-clangd.path": "cube",
+    "stm32cube-ide-clangd.path": "cube"
 }
