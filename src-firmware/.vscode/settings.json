@@ -6,5 +6,6 @@
     "cmake.preferredGenerators": [
         "Ninja"
     ],
-    "stm32cube-ide-clangd.path": "cube"
+    "stm32cube-ide-clangd.path": "cube",
+    "editor.rulers": [80, 120]
 }
