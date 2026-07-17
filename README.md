@@ -1,4 +1,4 @@
-# Thruster Control Board
+# Thruster Control Board - Revision 2
 
 ## Progress Notes
 - Designed circuit board revision 1 using Altium Designer.
@@ -55,3 +55,12 @@ oscillator to board.
     - [ ] Replace the debug connector with pin headers.
     - [ ] Add USB to UART chip to simplify USB communications.
     - [ ] Add an additional onboard LED purely for signalling that power is on.
+     
+# Revision 3 Notes
+## Electrical
+- Update motor control circuitry to use [the TI MCF8316A](https://www.ti.com/product/MCF8316A#pps).
+    - Significantly simplifies electrical system and number of components on the board.
+    - Available on JLCPCB assembly service.
+- Simplify USB communication with [TUSB3410](https://www.ti.com/product/TUSB3410).
+    - Converts USB data to UART.
+
