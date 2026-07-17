@@ -61,7 +61,7 @@ oscillator to board.
 - Update motor control circuitry to use [the TI MCF8316A](https://www.ti.com/product/MCF8316A#pps).
     - Significantly simplifies electrical system and number of components on the board.
     - Available on JLCPCB parts library.
-- Simplify USB communication with [TUSB3410](https://www.ti.com/product/TUSB3410).
+- Simplify USB communication with [TI TUSB3410](https://www.ti.com/product/TUSB3410).
     - Converts USB data to UART.
  - Add [BNO055](https://www.digikey.ca/short/m2jcv0r0) for IMU related data.
     - Available on JLCPCB parts library.
