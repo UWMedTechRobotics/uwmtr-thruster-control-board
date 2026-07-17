@@ -63,4 +63,5 @@ oscillator to board.
     - Available on JLCPCB assembly service.
 - Simplify USB communication with [TUSB3410](https://www.ti.com/product/TUSB3410).
     - Converts USB data to UART.
+ - Add [BNO055]() for IMU related data.
 
