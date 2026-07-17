@@ -8,7 +8,7 @@
 
 ## Todo Things & Priority
 ### High
-- [ ] [@AdrianTarantino](https://github.com/AdrianTarantino) | Solder crystal 
+- [x] [@AdrianTarantino](https://github.com/AdrianTarantino) | Solder crystal 
 oscillator to board.
 
 - [ ] Test device functionality. View [this repository](https://github.com/UWMedTechRobotics/ESC_V1_Firmware_Tests/tree/main).
@@ -26,7 +26,7 @@ oscillator to board.
     - [ ] [@AdrianTarantino](https://github.com/AdrianTarantino) | 3-Phase BLDC 
     motors.
     - [ ] [@AdrianTarantino](https://github.com/AdrianTarantino) | Muxes
-    - [ ] [@AdrianTarantino](https://github.com/AdrianTarantino) | [LED Driver](https://use.365.altium.com/librarycomponentsapi/api/v1/References/6CBF2630-7D49-4BC0-9B47-311861A12B9A). LED colour should follow this
+    - [x] [@AdrianTarantino](https://github.com/AdrianTarantino) | [LED Driver](https://use.365.altium.com/librarycomponentsapi/api/v1/References/6CBF2630-7D49-4BC0-9B47-311861A12B9A). LED colour should follow this
     priority:
         - Red when failure.
         - Green when motors spinning.
@@ -34,7 +34,7 @@ oscillator to board.
         - Blue when idle.
 
 ### Medium
-- [ ] Design mounting bracket for board.
+- [ ] Conan | Design mounting bracket for board.
 
 - [ ] Source stantions for stacking power board, sonar board and thruster board.
 
