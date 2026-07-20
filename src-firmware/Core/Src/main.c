@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "LED_Controller_LP5817DRLR.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

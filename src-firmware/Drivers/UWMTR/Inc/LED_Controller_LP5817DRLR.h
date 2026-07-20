@@ -14,10 +14,11 @@ typedef struct {
 } led_controller_lp5817drlr_object_t;
 
 typedef enum {
-    LED_CONTROLLER_LP5817DRLR_RED = 0,  // Red for indicating failure.
+    LED_CONTROLLER_LP5817DRLR_OFF = 0,
+    LED_CONTROLLER_LP5817DRLR_RED,  // Red for indicating failure.
     LED_CONTROLLER_LP5817DRLR_GREEN,    // Green for indicating motor spinning.
-    LED_CONTROLLER_LP5817DRLR_PURPLE,   // Purple for indicating serial communication.
     LED_CONTROLLER_LP5817DRLR_BLUE,     // Blue for indicating idle state.
+    LED_CONTROLLER_LP5817DRLR_PURPLE,   // Purple for indicating serial communication.
 } led_controller_lp5817drlr_colour_t;
 
 typedef enum {
@@ -26,6 +27,10 @@ typedef enum {
     LED_CONTROLLER_LP5817DRLR_NOT_IMPLEMENTED,
 } led_controller_lp5817drlr_state_t;
 
-led_controller_lp5817drlr_state_t led_controller_lp5817drlr_set_led_colour(led_controller_lp5817drlr_colour_t led_colour);
+led_controller_lp5817drlr_state_t led_controller_lp5817drlr_enable(led_controller_lp5817drlr_object_t *led_controller_object, uint32_t timeout_ms);
 
-led_controller_lp5817drlr_state_t led_controller_lp5817drlr_get_led_colour(led_controller_lp5817drlr_colour_t *led_colour);
+led_controller_lp5817drlr_state_t led_controller_lp5817drlr_disable(led_controller_lp5817drlr_object_t *led_controller_object, uint32_t timeout_ms);
+
+led_controller_lp5817drlr_state_t led_controller_lp5817drlr_set_led_colour(led_controller_lp5817drlr_object_t *led_controller_object, led_controller_lp5817drlr_colour_t led_colour, uint32_t timeout_ms);
+
+led_controller_lp5817drlr_state_t led_controller_lp5817drlr_get_led_colour(led_controller_lp5817drlr_object_t *led_controller_object, led_controller_lp5817drlr_colour_t *led_colour, uint32_t timeout_ms);
