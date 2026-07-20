@@ -46,6 +46,7 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
     Drivers/UWMTR/Src/LED_Controller_LP5817DRLR.c
+    Drivers/UWMTR/Src/IMU_BNO055.c
 )
 
 # Add include paths

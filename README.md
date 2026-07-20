@@ -1,4 +1,4 @@
-# Thruster Control Board
+# Thruster Control Board - Revision 2
 
 ## Progress Notes
 - Designed circuit board revision 1 using Altium Designer.
@@ -8,7 +8,7 @@
 
 ## Todo Things & Priority
 ### High
-- [ ] [@AdrianTarantino](https://github.com/AdrianTarantino) | Solder crystal 
+- [x] [@AdrianTarantino](https://github.com/AdrianTarantino) | Solder crystal 
 oscillator to board.
 
 - [ ] Test device functionality. View [this repository](https://github.com/UWMedTechRobotics/ESC_V1_Firmware_Tests/tree/main).
@@ -26,7 +26,7 @@ oscillator to board.
     - [ ] [@AdrianTarantino](https://github.com/AdrianTarantino) | 3-Phase BLDC 
     motors.
     - [ ] [@AdrianTarantino](https://github.com/AdrianTarantino) | Muxes
-    - [ ] [@AdrianTarantino](https://github.com/AdrianTarantino) | [LED Driver](https://use.365.altium.com/librarycomponentsapi/api/v1/References/6CBF2630-7D49-4BC0-9B47-311861A12B9A). LED colour should follow this
+    - [x] [@AdrianTarantino](https://github.com/AdrianTarantino) | [LED Driver](https://use.365.altium.com/librarycomponentsapi/api/v1/References/6CBF2630-7D49-4BC0-9B47-311861A12B9A). LED colour should follow this
     priority:
         - Red when failure.
         - Green when motors spinning.
@@ -34,7 +34,7 @@ oscillator to board.
         - Blue when idle.
 
 ### Medium
-- [ ] Design mounting bracket for board.
+- [ ] Conan | Design mounting bracket for board.
 
 - [ ] Source stantions for stacking power board, sonar board and thruster board.
 
@@ -55,3 +55,15 @@ oscillator to board.
     - [ ] Replace the debug connector with pin headers.
     - [ ] Add USB to UART chip to simplify USB communications.
     - [ ] Add an additional onboard LED purely for signalling that power is on.
+     
+# Revision 3 Notes
+## Electrical
+- Update motor control circuitry to use [the TI MCF8316A](https://www.ti.com/product/MCF8316A#pps).
+    - Significantly simplifies electrical system and number of components on the board.
+    - Available on JLCPCB parts library.
+- Simplify USB communication with [TI TUSB3410](https://www.ti.com/product/TUSB3410).
+    - Converts USB data to UART.
+ - Add [BNO055](https://www.digikey.ca/short/m2jcv0r0) for IMU related data.
+    - Available on JLCPCB parts library.
+- Add dedicated LED purely for indicating power-on.
+
