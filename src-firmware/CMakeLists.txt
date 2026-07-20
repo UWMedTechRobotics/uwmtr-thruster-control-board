@@ -47,6 +47,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
     Drivers/UWMTR/Src/LED_Controller_LP5817DRLR.c
     Drivers/UWMTR/Src/IMU_BNO055.c
+    Drivers/UWMTR/Src/Multiplexer_4_To_1_TMUX1204DQAR.c
 )
 
 # Add include paths
