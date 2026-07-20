@@ -66,4 +66,5 @@ oscillator to board.
  - Add [BNO055](https://www.digikey.ca/short/m2jcv0r0) for IMU related data.
     - Available on JLCPCB parts library.
 - Add dedicated LED purely for indicating power-on.
+- Use Power MOSFETs
 
