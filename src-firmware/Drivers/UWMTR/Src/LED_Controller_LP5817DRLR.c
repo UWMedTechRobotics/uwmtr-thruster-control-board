@@ -22,7 +22,7 @@
 #define FEILD_REGISTER_CHIP_EN_ENABLE (uint8_t)1
 #define FEILD_REGISTER_CHIP_EN_DISABLE (uint8_t)0
 
-led_controller_lp5817drlr_state_t led_controller_lp5817drlr_enable(led_controller_lp5817drlr_object_t *led_controller_object, uint32_t timeout_ms)
+led_controller_lp5817drlr_status_t led_controller_lp5817drlr_enable(led_controller_lp5817drlr_object_t *led_controller_object, uint32_t timeout_ms)
 {
     uint8_t enable_data[] = {
         REGISTER_CHIP_EN,
@@ -63,7 +63,7 @@ led_controller_lp5817drlr_state_t led_controller_lp5817drlr_enable(led_controlle
     }
 }
 
-led_controller_lp5817drlr_state_t led_controller_lp5817drlr_disable(led_controller_lp5817drlr_object_t *led_controller_object, uint32_t timeout_ms)
+led_controller_lp5817drlr_status_t led_controller_lp5817drlr_disable(led_controller_lp5817drlr_object_t *led_controller_object, uint32_t timeout_ms)
 {
     uint8_t data[] = {
         REGISTER_CHIP_EN,
@@ -85,7 +85,7 @@ led_controller_lp5817drlr_state_t led_controller_lp5817drlr_disable(led_controll
     return LED_CONTROLLER_LP5817DRLR_FAILURE;
 }
 
-led_controller_lp5817drlr_state_t led_controller_lp5817drlr_set_led_colour(led_controller_lp5817drlr_object_t *led_controller_object, led_controller_lp5817drlr_colour_t led_colour, uint32_t timeout_ms)
+led_controller_lp5817drlr_status_t led_controller_lp5817drlr_set_led_colour(led_controller_lp5817drlr_object_t *led_controller_object, led_controller_lp5817drlr_colour_t led_colour, uint32_t timeout_ms)
 {
     uint8_t data[4];
     data[0] = REGISTER_OUT0_MANUAL_PWM;
@@ -149,7 +149,7 @@ led_controller_lp5817drlr_state_t led_controller_lp5817drlr_set_led_colour(led_c
     return LED_CONTROLLER_LP5817DRLR_FAILURE;
 }
 
-led_controller_lp5817drlr_state_t led_controller_lp5817drlr_get_led_colour(led_controller_lp5817drlr_object_t *led_controller_object, led_controller_lp5817drlr_colour_t *led_colour, uint32_t timeout_ms)
+led_controller_lp5817drlr_status_t led_controller_lp5817drlr_get_led_colour(led_controller_lp5817drlr_object_t *led_controller_object, led_controller_lp5817drlr_colour_t *led_colour, uint32_t timeout_ms)
 {
     return LED_CONTROLLER_LP5817DRLR_NOT_IMPLEMENTED;
 }

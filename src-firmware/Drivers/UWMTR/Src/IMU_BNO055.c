@@ -1,6 +1,6 @@
 #include <stdint.h>
 
-#include "bno055.h"
+#include "IMU_BNO055.h"
 
 #define BNO055_CHIP_ID_REGISTER 0xA0
 #define BNO055_CHIP_ID 0xA0

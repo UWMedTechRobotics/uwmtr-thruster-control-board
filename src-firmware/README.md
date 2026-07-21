@@ -4,6 +4,14 @@
 For initial setup and installation instructions, follow the steps outlined in 
 [uwmtr-fw-template-v1](https://github.com/UWMedTechRobotics/uwmtr-fw-template-v1).
 
+### Building, Cleaning & Debugging
+| Task | Command / Shortcut |
+| ---------- | ---------------------------- |
+| Build (*.elf) | `ctrl + p` & `>CMake: Build` |
+| Build (*.hex) | `ctrl + p` & `>CMake: Build` |
+| Clean | `ctrl + p` & `>CMake: Clean` |
+| Debug | `f5` | 
+
 ### Implementing New Drivers
 Use drivers for the following:
 - Hardware abstractions for sensors and other peripherals on the board.

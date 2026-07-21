@@ -67,4 +67,3 @@ oscillator to board.
     - Available on JLCPCB parts library.
 - Add dedicated LED purely for indicating power-on.
 - Use Power MOSFETs
-
