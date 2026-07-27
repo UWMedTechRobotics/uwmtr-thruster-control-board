@@ -11,4 +11,5 @@
         "Ninja"
     ],
     "stm32cube-ide-clangd.path": "cube",
+    "cmake.sourceDirectory": "/home/adrian/Documents/uwmtr-thruster-control-board/src-firmware",
 }

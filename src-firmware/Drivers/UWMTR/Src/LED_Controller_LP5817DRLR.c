@@ -28,7 +28,7 @@ led_controller_lp5817drlr_status_t led_controller_lp5817drlr_enable(led_controll
         REGISTER_CHIP_EN,
         FEILD_REGISTER_CHIP_EN_ENABLE};
 
-    HAL_StatusTypeDef i2c_comms_status = HAL_I2C_Master_Transmit(led_controller_object->i2c_handler, led_controller_object->i2c_address << 1, enable_data, 2, timeout_ms);
+    HAL_StatusTypeDef i2c_comms_status = HAL_I2C_Master_Transmit(led_controller_object->i2c_handler, (led_controller_object->i2c_address << 1), enable_data, 2, timeout_ms);
     switch (i2c_comms_status)
     {
     case HAL_OK:
@@ -132,7 +132,7 @@ led_controller_lp5817drlr_status_t led_controller_lp5817drlr_set_led_colour(led_
         data[3] = 0;
     }
 
-    status = HAL_I2C_Master_Transmit(led_controller_object->i2c_handler, led_controller_object->i2c_address << 1, data, 4, timeout_ms);
+    status = HAL_I2C_Master_Transmit(led_controller_object->i2c_handler, (led_controller_object->i2c_address << 1), data, 4, timeout_ms);
 
     switch (status)
     {

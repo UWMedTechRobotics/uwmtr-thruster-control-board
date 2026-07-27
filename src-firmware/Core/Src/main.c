@@ -90,6 +90,8 @@ int main(void)
   MX_GPIO_Init();
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
+  I2C_Bus_Recovery();
+  
   led_controller_lp5817drlr_status_t status = LED_CONTROLLER_LP5817DRLR_FAILURE;
   status = led_controller_lp5817drlr_enable(&status_led, LED_COMMS_TIMEOUT);
   /* USER CODE END 2 */
@@ -215,7 +217,42 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void I2C_Bus_Recovery(void) {
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
 
+    // 1. Enable the GPIO clock for your I2C pins (Assuming GPIOB)
+    __HAL_RCC_GPIOB_CLK_ENABLE();
+
+    // 2. Configure SCL and SDA as standard Open-Drain outputs temporarily
+    // ** Note: Change GPIO_PIN_8 | GPIO_PIN_9 to your actual I2C pins **
+    GPIO_InitStruct.Pin = GPIO_PIN_8 | GPIO_PIN_9; 
+    GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+    HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+    // 3. Set both lines high
+    HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8 | GPIO_PIN_9, GPIO_PIN_SET);
+    HAL_Delay(1);
+
+    // 4. Manually clock SCL up to 9 times to free the stuck slave
+    for (int i = 0; i < 9; i++) {
+        HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, GPIO_PIN_RESET); // SCL Low
+        HAL_Delay(1);
+        HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, GPIO_PIN_SET);   // SCL High
+        HAL_Delay(1);
+        
+        // If SDA is released high by the slave, the bus is free
+        if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_9) == GPIO_PIN_SET) { 
+            break;
+        }
+    }
+
+    // 5. Force a hard reset of the I2C1 peripheral at the RCC level
+    __HAL_RCC_I2C1_FORCE_RESET();
+    HAL_Delay(1);
+    __HAL_RCC_I2C1_RELEASE_RESET();
+}
 /* USER CODE END 4 */
 
 /**

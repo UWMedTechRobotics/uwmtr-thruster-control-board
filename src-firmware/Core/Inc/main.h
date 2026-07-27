@@ -63,7 +63,7 @@ void Error_Handler(void);
 #define I2C_BUS_MAIN_SDA_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
-
+void I2C_Bus_Recovery(void);
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
