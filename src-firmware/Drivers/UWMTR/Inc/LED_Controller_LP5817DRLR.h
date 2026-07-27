@@ -5,23 +5,29 @@ Note only independent mode will be implemented.
 */
 
 #include "main.h"
+#include "stdint.h"
 
 #define LED_CONTROLLER_LP5817DRLR_I2C_ADDRESS 0x2D // Read = (0x2D << 1 + 1), Write = (0x2D << 1)
 
-typedef struct {
+typedef struct
+{
     I2C_HandleTypeDef *i2c_handler;
-    uint16_t i2c_address;  
+    uint16_t i2c_address;
 } led_controller_lp5817drlr_object_t;
 
-typedef enum {
-    LED_CONTROLLER_LP5817DRLR_OFF = 0,
-    LED_CONTROLLER_LP5817DRLR_RED,  // Red for indicating failure.
-    LED_CONTROLLER_LP5817DRLR_GREEN,    // Green for indicating motor spinning.
-    LED_CONTROLLER_LP5817DRLR_BLUE,     // Blue for indicating idle state.
-    LED_CONTROLLER_LP5817DRLR_PURPLE,   // Purple for indicating serial communication.
+typedef enum
+{
+    LED_CONTROLLER_LP5817DRLR_COLOUR_OFF = 0,
+    LED_CONTROLLER_LP5817DRLR_COLOUR_RED,    // Red for indicating failure.
+    LED_CONTROLLER_LP5817DRLR_COLOUR_GREEN,  // Green for indicating motor spinning.
+    LED_CONTROLLER_LP5817DRLR_COLOUR_BLUE,   // Blue for indicating idle state.
+    LED_CONTROLLER_LP5817DRLR_COLOUR_PURPLE, // Purple for indicating serial communication.
+
+    LED_CONTROLLER_LP5817DRLR_COLOUR_COUNT
 } led_controller_lp5817drlr_colour_t;
 
-typedef enum {
+typedef enum
+{
     LED_CONTROLLER_LP5817DRLR_SUCCESS = 0,
     LED_CONTROLLER_LP5817DRLR_FAILURE,
     LED_CONTROLLER_LP5817DRLR_NOT_IMPLEMENTED,

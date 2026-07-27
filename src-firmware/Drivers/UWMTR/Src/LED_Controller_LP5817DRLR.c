@@ -94,7 +94,7 @@ led_controller_lp5817drlr_status_t led_controller_lp5817drlr_set_led_colour(led_
 
     switch (led_colour)
     {
-    case LED_CONTROLLER_LP5817DRLR_RED:
+    case LED_CONTROLLER_LP5817DRLR_COLOUR_RED:
     {
         data[1] = 0xFF;
         data[2] = 0x00;
@@ -102,7 +102,7 @@ led_controller_lp5817drlr_status_t led_controller_lp5817drlr_set_led_colour(led_
     }
     break;
 
-    case LED_CONTROLLER_LP5817DRLR_GREEN:
+    case LED_CONTROLLER_LP5817DRLR_COLOUR_GREEN:
     {
         data[1] = 0;
         data[2] = 0xFF;
@@ -110,7 +110,7 @@ led_controller_lp5817drlr_status_t led_controller_lp5817drlr_set_led_colour(led_
     }
     break;
 
-    case LED_CONTROLLER_LP5817DRLR_BLUE:
+    case LED_CONTROLLER_LP5817DRLR_COLOUR_BLUE:
     {
         data[1] = 0;
         data[2] = 0;
@@ -118,7 +118,7 @@ led_controller_lp5817drlr_status_t led_controller_lp5817drlr_set_led_colour(led_
     }
     break;
 
-    case LED_CONTROLLER_LP5817DRLR_PURPLE:
+    case LED_CONTROLLER_LP5817DRLR_COLOUR_PURPLE:
     {
         data[1] = 0xFF;
         data[2] = 0;
