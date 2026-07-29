@@ -25,6 +25,8 @@
 #include <stdint.h>
 
 #include "LED_Controller_LP5817DRLR.h"
+#include "stm32f4xx_hal.h"
+#include "stm32f4xx_hal_gpio.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -46,7 +48,6 @@
 I2C_HandleTypeDef hi2c2;
 
 /* USER CODE BEGIN PV */
-led_controller_lp5817drlr_object_t status_led = {.i2c_handler = &hi2c1, .i2c_address = LED_CONTROLLER_LP5817DRLR_I2C_ADDRESS};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -94,31 +95,16 @@ int main(void)
   MX_I2C2_Init();
   /* USER CODE BEGIN 2 */
   
-  led_controller_lp5817drlr_status_t status = LED_CONTROLLER_LP5817DRLR_FAILURE;
-  status = led_controller_lp5817drlr_enable(&status_led, LED_COMMS_TIMEOUT, true);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    for (led_controller_lp5817drlr_colour_t colour = 0; colour < LED_CONTROLLER_LP5817DRLR_COLOUR_COUNT; colour++)
-    {
-      status = led_controller_lp5817drlr_set_led_colour(&status_led, colour, LED_COMMS_TIMEOUT);
-      HAL_Delay(LED_COMMS_TIMEOUT);
+    HAL_GPIO_TogglePin(TEST_GPIO_Port, TEST_Pin);
+    HAL_GPIO_TogglePin(TEST2_GPIO_Port, TEST2_Pin);
+    HAL_Delay(500);
 
-      led_controller_lp5817drlr_colour_t read_colour = LED_CONTROLLER_LP5817DRLR_COLOUR_COUNT;
-      status = led_controller_lp5817drlr_get_led_colour(&status_led, &read_colour, LED_COMMS_TIMEOUT);
-
-      if(status == LED_CONTROLLER_LP5817DRLR_NOT_IMPLEMENTED) {
-        continue;
-      }
-
-      if(read_colour != colour) {
-        led_controller_lp5817drlr_set_led_colour(&status_led, LED_CONTROLLER_LP5817DRLR_COLOUR_RED, LED_COMMS_TIMEOUT);
-        HAL_Delay(LED_COMMS_TIMEOUT);
-      }
-    }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -217,10 +203,10 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, TEST_Pin|GPIO_PIN_9, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, TEST_Pin|TEST2_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : TEST_Pin PB9 */
-  GPIO_InitStruct.Pin = TEST_Pin|GPIO_PIN_9;
+  /*Configure GPIO pins : TEST_Pin TEST2_Pin */
+  GPIO_InitStruct.Pin = TEST_Pin|TEST2_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
