@@ -57,13 +57,11 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define I2C_BUS_MAIN_SCL_Pin GPIO_PIN_8
-#define I2C_BUS_MAIN_SCL_GPIO_Port GPIOB
-#define I2C_BUS_MAIN_SDA_Pin GPIO_PIN_9
-#define I2C_BUS_MAIN_SDA_GPIO_Port GPIOB
+#define TEST_Pin GPIO_PIN_8
+#define TEST_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
-void I2C_Bus_Recovery(void);
+
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

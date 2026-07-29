@@ -4,8 +4,10 @@
 Note only independent mode will be implemented.
 */
 
+#include <stdbool.h>
+#include <stdint.h>
+
 #include "main.h"
-#include "stdint.h"
 
 #define LED_CONTROLLER_LP5817DRLR_I2C_ADDRESS 0x2D // Read = (0x2D << 1 + 1), Write = (0x2D << 1)
 
@@ -33,7 +35,7 @@ typedef enum
     LED_CONTROLLER_LP5817DRLR_NOT_IMPLEMENTED,
 } led_controller_lp5817drlr_status_t;
 
-led_controller_lp5817drlr_status_t led_controller_lp5817drlr_enable(led_controller_lp5817drlr_object_t *led_controller_object, uint32_t timeout_ms);
+led_controller_lp5817drlr_status_t led_controller_lp5817drlr_enable(led_controller_lp5817drlr_object_t *led_controller_object, uint32_t timeout_ms, bool enabled_on_powerup);
 
 led_controller_lp5817drlr_status_t led_controller_lp5817drlr_disable(led_controller_lp5817drlr_object_t *led_controller_object, uint32_t timeout_ms);
 

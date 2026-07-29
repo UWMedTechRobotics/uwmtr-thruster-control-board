@@ -1,3 +1,6 @@
+#include <stdbool.h>
+#include <stdint.h>
+
 #include "LED_Controller_LP5817DRLR.h"
 #include "stm32f4xx_hal_def.h"
 #include "stm32f4xx_hal_i2c.h"
@@ -22,8 +25,12 @@
 #define FEILD_REGISTER_CHIP_EN_ENABLE (uint8_t)1
 #define FEILD_REGISTER_CHIP_EN_DISABLE (uint8_t)0
 
-led_controller_lp5817drlr_status_t led_controller_lp5817drlr_enable(led_controller_lp5817drlr_object_t *led_controller_object, uint32_t timeout_ms)
+led_controller_lp5817drlr_status_t led_controller_lp5817drlr_enable(led_controller_lp5817drlr_object_t *led_controller_object, uint32_t timeout_ms, bool enabled_on_powerup)
 {
+    if(enabled_on_powerup) {
+        HAL_Delay(1);
+    }
+
     uint8_t enable_data[] = {
         REGISTER_CHIP_EN,
         FEILD_REGISTER_CHIP_EN_ENABLE};
