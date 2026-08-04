@@ -56,6 +56,13 @@ oscillator to board.
     - [ ] Add USB to UART chip to simplify USB communications.
     - [ ] Add an additional onboard LED purely for signalling that power is on.
      
+## Issues
+### I2C SDA high voltage is 0.50V and idle voltage is 0.50V.
+- Slave device could be tying the line down (LP5817DRLR).
+- Low resistance between SDA and ground could be creating a voltage divider.
+- High resistance between SDA and +3.3V could be creating a voltage drop.
+- Check if other boards have this same issue.
+
 # Revision 3 Notes
 ## Electrical
 - Update motor control circuitry to use [the TI MCF8316A](https://www.ti.com/product/MCF8316A#pps).
