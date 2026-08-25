@@ -1035,6 +1035,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "uwmtr-thruster-control-board-hw-custom-symbols:1206B473K500NT"
 			(pin_numbers
 				(hide yes)
@@ -2623,8 +2738,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -25.4 49.53 0)
+			(property "Reference" "U1"
+				(at 0 57.15 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2634,7 +2749,7 @@
 				)
 			)
 			(property "Value" "TI_MCF8316A"
-				(at -25.4 46.99 0)
+				(at 0 54.61 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2643,7 +2758,7 @@
 					)
 				)
 			)
-			(property "Footprint" "RGF0040E-IPC_A"
+			(property "Footprint" "uwmtr-thruster-control-board-hw-footprints:TI_MCF8316A"
 				(at -25.4 46.99 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2760,7 +2875,7 @@
 						(type none)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -25.4 21.59 0)
 					(length 5.08)
 					(name "DVDD"
@@ -2832,7 +2947,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 25.4 46.99 180)
 					(length 5.08)
 					(name "SW_BK"
@@ -3228,7 +3343,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -25.4 26.67 0)
 					(length 5.08)
 					(name "AVDD"
@@ -3515,6 +3630,18 @@
 		(uuid "0a38b08d-9ff4-43a8-8e0b-436405fa3292")
 	)
 	(rectangle
+		(start 104.775 140.97)
+		(end 153.67 182.245)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "388f8a3e-7053-4e7e-8176-f428e92e2a81")
+	)
+	(rectangle
 		(start 14.605 84.455)
 		(end 71.755 139.065)
 		(stroke
@@ -3596,6 +3723,18 @@
 			)
 		)
 		(uuid "36538714-8c16-466d-ac86-002edfefe90c")
+	)
+	(text "Power Flags"
+		(exclude_from_sim no)
+		(at 115.316 144.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "38ee9805-78cb-4fc7-9dd3-1484833c51cd")
 	)
 	(text "Pull-Up Resistors"
 		(exclude_from_sim no)
@@ -3819,7 +3958,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 45.72) (xy 92.71 45.72)
+			(xy 78.74 45.72) (xy 92.71 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3899,7 +4038,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 66.04) (xy 92.71 66.04)
+			(xy 78.74 66.04) (xy 92.71 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3956,6 +4095,16 @@
 			(type default)
 		)
 		(uuid "1bb9ffba-c49f-45ea-9343-12e894a0442e")
+	)
+	(wire
+		(pts
+			(xy 68.58 45.72) (xy 68.58 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4a36d1-204a-42e2-88f3-fd2a61b25ffb")
 	)
 	(wire
 		(pts
@@ -4269,7 +4418,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 38.1) (xy 92.71 38.1)
+			(xy 68.58 38.1) (xy 92.71 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4289,7 +4438,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 58.42) (xy 92.71 58.42)
+			(xy 78.74 58.42) (xy 92.71 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4299,7 +4448,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 55.88) (xy 92.71 55.88)
+			(xy 171.45 114.3) (xy 196.85 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f6d3ff-fe6b-4b10-b4e0-562a1acd1dce")
+	)
+	(wire
+		(pts
+			(xy 78.74 55.88) (xy 92.71 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4429,7 +4588,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 34.29) (xy 85.09 38.1)
+			(xy 68.58 33.02) (xy 68.58 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4469,6 +4628,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 40.64) (xy 92.71 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89dd4a92-ed52-47c9-88f6-459c346f82fb")
+	)
+	(wire
+		(pts
 			(xy 247.65 38.1) (xy 267.97 38.1)
 		)
 		(stroke
@@ -4479,7 +4648,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 48.26) (xy 92.71 48.26)
+			(xy 115.57 161.29) (xy 115.57 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b4e90f9-969a-4ff6-8c27-2d582554faa3")
+	)
+	(wire
+		(pts
+			(xy 78.74 48.26) (xy 92.71 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4519,7 +4698,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 60.96) (xy 92.71 60.96)
+			(xy 78.74 60.96) (xy 92.71 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4546,16 +4725,6 @@
 			(type default)
 		)
 		(uuid "a568b997-395a-4037-80d6-9c835e350272")
-	)
-	(wire
-		(pts
-			(xy 71.12 40.64) (xy 92.71 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a793edbb-25b4-42ad-8355-bea0d1ba7ddf")
 	)
 	(wire
 		(pts
@@ -4606,6 +4775,16 @@
 			(type default)
 		)
 		(uuid "abe96ca9-f460-4a13-848c-19f7baefc508")
+	)
+	(wire
+		(pts
+			(xy 128.27 161.29) (xy 128.27 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc99a42-ca06-4c2f-9975-f4ae6cdd8b2d")
 	)
 	(wire
 		(pts
@@ -4669,7 +4848,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 43.18) (xy 92.71 43.18)
+			(xy 78.74 43.18) (xy 92.71 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4719,7 +4898,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 53.34) (xy 92.71 53.34)
+			(xy 78.74 53.34) (xy 92.71 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4739,7 +4918,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 68.58) (xy 92.71 68.58)
+			(xy 78.74 68.58) (xy 92.71 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4769,7 +4948,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 63.5) (xy 92.71 63.5)
+			(xy 78.74 63.5) (xy 92.71 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4799,7 +4978,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 50.8) (xy 92.71 50.8)
+			(xy 78.74 50.8) (xy 92.71 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4826,16 +5005,6 @@
 			(type default)
 		)
 		(uuid "eb9d404d-46e4-4267-bfa5-ab0d42e0a013")
-	)
-	(wire
-		(pts
-			(xy 86.36 73.66) (xy 86.36 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef4289ab-722d-41cd-93c5-7c9647bdf465")
 	)
 	(wire
 		(pts
@@ -4876,6 +5045,16 @@
 			(type default)
 		)
 		(uuid "f5785b64-2429-4188-a92f-bbd08c5da97f")
+	)
+	(wire
+		(pts
+			(xy 140.97 161.29) (xy 140.97 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6282d18-690f-45c7-8c3e-d4a2e87e2fbd")
 	)
 	(wire
 		(pts
@@ -4988,7 +5167,7 @@
 		(uuid "1d9f5137-6744-4eec-a9dd-e27a52d22877")
 	)
 	(label "I2C_SCL"
-		(at 71.12 63.5 0)
+		(at 78.74 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5008,7 +5187,7 @@
 		(uuid "27848438-b06f-484c-b25f-ec97dcfa3d65")
 	)
 	(label "SOX"
-		(at 71.12 55.88 0)
+		(at 78.74 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5018,7 +5197,7 @@
 		(uuid "2bf046a5-6826-47f0-8853-7a090a420f17")
 	)
 	(label "FG"
-		(at 71.12 58.42 0)
+		(at 78.74 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5028,7 +5207,7 @@
 		(uuid "2d5b58a4-e71d-41d2-a4c9-504ac2c7cb71")
 	)
 	(label "EXT_WD"
-		(at 71.12 53.34 0)
+		(at 78.74 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5046,6 +5225,16 @@
 			(justify left bottom)
 		)
 		(uuid "3894e74a-a9a9-4a7b-b8c5-40278e71d374")
+	)
+	(label "FAULT_N"
+		(at 78.74 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b05c0f9-aba2-4581-9eb4-6f8edb590364")
 	)
 	(label "FAULT_N"
 		(at 171.45 129.54 0)
@@ -5077,16 +5266,6 @@
 		)
 		(uuid "542aa338-5aac-47b8-a0ad-d91b8f97ea5d")
 	)
-	(label "FAULT_N"
-		(at 71.12 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "56f2f3a1-4e99-4c8b-a3e0-55939a6fb805")
-	)
 	(label "DVDD"
 		(at 171.45 63.5 0)
 		(effects
@@ -5108,14 +5287,14 @@
 		(uuid "5ceb0fc6-fa9f-42cf-89c0-14e50dbcd9f3")
 	)
 	(label "I2C_SDA"
-		(at 71.12 66.04 0)
+		(at 78.74 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "5d5bf43a-17f1-4995-adf7-f194cb8ffb33")
+		(uuid "610b606c-298f-4969-b46f-49f57b31919b")
 	)
 	(label "I2C_SDA"
 		(at 171.45 139.7 0)
@@ -5128,7 +5307,7 @@
 		(uuid "64921929-6fbf-4986-8ca4-2a2705996c12")
 	)
 	(label "DIR"
-		(at 71.12 48.26 0)
+		(at 78.74 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5136,6 +5315,16 @@
 			(justify left bottom)
 		)
 		(uuid "694d5e38-3a13-45e4-8441-ec1427ffbf80")
+	)
+	(label "SPEED_WAKE"
+		(at 78.74 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b0d1cda-90fa-4710-89b8-516decf130e6")
 	)
 	(label "SW_BK"
 		(at 77.47 105.41 0)
@@ -5198,7 +5387,7 @@
 		(uuid "88e316d9-1719-44cd-9197-531d1482dc1f")
 	)
 	(label "BRAKE"
-		(at 71.12 45.72 0)
+		(at 78.74 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5227,16 +5416,6 @@
 		)
 		(uuid "945b2907-cab4-4106-9c24-f3ebe0741e93")
 	)
-	(label "SPEED_WAKE"
-		(at 71.12 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a490e0c4-f9ed-4476-bb43-77869d32fc51")
-	)
 	(label "OUT_A"
 		(at 267.97 58.42 180)
 		(effects
@@ -5247,7 +5426,7 @@
 		)
 		(uuid "b6cb75d4-0911-46b7-80ac-6663983d5b27")
 	)
-	(label "DIR"
+	(label "BRAKE"
 		(at 171.45 109.22 0)
 		(effects
 			(font
@@ -5278,7 +5457,7 @@
 		(uuid "cb8b5d50-d3d4-47c8-b1df-3f9e8508290c")
 	)
 	(label "EXT_CLK"
-		(at 71.12 50.8 0)
+		(at 78.74 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5286,6 +5465,16 @@
 			(justify left bottom)
 		)
 		(uuid "d1c038ce-20c4-4e74-9930-a64f209d9544")
+	)
+	(label "DIR"
+		(at 171.45 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d514ea94-fdbd-4d57-955d-75d68250572f")
 	)
 	(label "EXT_WD"
 		(at 171.45 91.44 0)
@@ -5298,7 +5487,7 @@
 		(uuid "d54f46e8-ebd7-483c-a1b5-0cedc8a90b8f")
 	)
 	(label "DRVOFF"
-		(at 71.12 43.18 0)
+		(at 78.74 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5731,6 +5920,84 @@
 			(project "uwmtr-thruster-control-board-hw"
 				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
 					(reference "CL31B105KAHNNNE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 115.57 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4918c339-354c-4606-8163-981a6052a222")
+		(property "Reference" "#PWR014"
+			(at 115.57 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 115.57 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 115.57 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31827240-828e-4a7f-8dbb-4fc5db44fac9")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6428,6 +6695,240 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 140.97 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f762c79-1b4a-4b1e-81ec-a633098ec799")
+		(property "Reference" "#FLG03"
+			(at 140.97 159.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 140.97 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 140.97 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6aa09be5-555d-410b-a250-9f845b00e2fc")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 128.27 172.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "743d6a6d-e275-48b9-bdc2-b8fb0f4f539d")
+		(property "Reference" "#FLG02"
+			(at 128.27 174.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 128.27 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 128.27 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b187fba-3cb6-4fd2-9532-201f8638e696")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77f8fcf5-3365-4a48-ba24-29f9171a63d2")
+		(property "Reference" "#PWR03"
+			(at 68.58 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "387fecaa-e7a5-4916-9c13-615493c2a356")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:691137710002")
 		(at 44.45 66.04 270)
 		(unit 1)
@@ -6602,6 +7103,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 128.27 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8224d2bd-3e6c-4884-baa4-3bef26f4162d")
+		(property "Reference" "#PWR015"
+			(at 128.27 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 128.27 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 128.27 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50a9d4d5-c68c-4e3a-8419-f715e430fcfb")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:CL31B104KCFNNNE")
 		(at 77.47 170.18 90)
 		(unit 1)
@@ -6693,6 +7272,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 115.57 172.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8da762e7-4185-4ecc-a88a-6c517d23d7d6")
+		(property "Reference" "#FLG01"
+			(at 115.57 174.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 115.57 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 115.57 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c485f8a3-d6cb-466b-909e-53a559899c15")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x13_Pin")
 		(at 97.79 53.34 0)
 		(mirror y)
@@ -6705,7 +7362,7 @@
 		(dnp no)
 		(uuid "8ea56ec1-517c-474d-8949-5ee17b287be8")
 		(property "Reference" "J1"
-			(at 97.155 33.02 0)
+			(at 97.79 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6715,7 +7372,7 @@
 			)
 		)
 		(property "Value" "Conn_01x13_Pin"
-			(at 97.155 35.56 0)
+			(at 97.536 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7118,86 +7775,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 86.36 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a14587d0-226a-4374-a3dc-82d747137610")
-		(property "Reference" "#PWR03"
-			(at 86.36 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f4ee5f09-624b-459c-8037-38834a38b819")
-		)
-		(instances
-			(project "uwmtr-thruster-control-board-hw"
-				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
-		(at 85.09 34.29 0)
+		(at 68.58 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7208,7 +7787,7 @@
 		(fields_autoplaced yes)
 		(uuid "c49a2447-9de4-4135-9260-b4c54c14076f")
 		(property "Reference" "#PWR06"
-			(at 85.09 38.1 0)
+			(at 68.58 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7219,7 +7798,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 85.09 29.21 0)
+			(at 68.58 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7229,7 +7808,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 34.29 0)
+			(at 68.58 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7240,7 +7819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 34.29 0)
+			(at 68.58 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7251,7 +7830,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 85.09 34.29 0)
+			(at 68.58 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7521,6 +8100,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 140.97 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdd54cd2-6677-47f2-b3d7-2ae113ede20f")
+		(property "Reference" "#PWR016"
+			(at 140.97 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80cc46c8-8f77-4064-98b5-a9f6a2a68ae0")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:691137710003")
 		(at 46.99 36.83 270)
 		(unit 1)
@@ -7554,7 +8211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "691137710003:691137710003"
+		(property "Footprint" "uwmtr-thruster-control-board-hw-footprints:691137710003"
 			(at 46.99 36.83 0)
 			(hide yes)
 			(show_name no)
