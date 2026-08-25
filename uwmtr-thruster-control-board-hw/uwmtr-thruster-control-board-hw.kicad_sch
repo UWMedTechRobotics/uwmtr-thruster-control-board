@@ -781,6 +781,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -886,6 +1025,1585 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "uwmtr-thruster-control-board-hw-custom-symbols:1206B473K500NT"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "1206B473K500NT"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "47nF"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Part #" "C1870"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1206B473K500NT_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1206B473K500NT_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "uwmtr-thruster-control-board-hw-custom-symbols:1206W4F5101T5E"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "1206W4F5101T5E"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5.1kR"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Part #" "C26033"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1206W4F5101T5E_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1206W4F5101T5E_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "uwmtr-thruster-control-board-hw-custom-symbols:691137710002"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -4.88 -0.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "691137710002"
+				(at -4.83 -2.58 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Footprint" "uwmtr-thruster-control-board-hw-footprints:691137710002"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "691137710002_0_0"
+				(rectangle
+					(start -3.81 -2.54)
+					(end 1.27 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.54 -1.27)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.778) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -1.016) (xy -2.794 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -1.016) (xy -0.254 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "uwmtr-thruster-control-board-hw-custom-symbols:691137710003"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -4.88 -0.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "691137710003"
+				(at -4.83 -2.58 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Footprint" "691137710003:691137710003"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "691137710003_0_0"
+				(rectangle
+					(start -3.81 -2.54)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.54 -1.27)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.778) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -1.016) (xy -2.794 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -1.016) (xy -0.254 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.27)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.778) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.016) (xy 2.286 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "uwmtr-thruster-control-board-hw-custom-symbols:CL31B104KCFNNNE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CL31B104KCFNNNE"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100nF"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Part #" "C1945"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CL31B104KCFNNNE_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL31B104KCFNNNE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "uwmtr-thruster-control-board-hw-custom-symbols:CL31B105KAHNNNE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CL31B105KAHNNNE"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1uF"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Part #" "C28322"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CL31B105KAHNNNE_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL31B105KAHNNNE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "uwmtr-thruster-control-board-hw-custom-symbols:CS3216X5R226K160NRI"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CS3216X5R226K160NRI"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22uF"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Part #" "C513771"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CS3216X5R226K160NRI_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CS3216X5R226K160NRI_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "uwmtr-thruster-control-board-hw-custom-symbols:FRC1206F22R0TS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FRC1206F22R0TS"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Part #" "C2933647"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FRC1206F22R0TS_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FRC1206F22R0TS_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "uwmtr-thruster-control-board-hw-custom-symbols:KM107M050F12RR0VH2FP0"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "KM107M050F12RR0VH2FP0"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100uF"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Part #" "C2749"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KM107M050F12RR0VH2FP0_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "KM107M050F12RR0VH2FP0_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1784,103 +3502,304 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 14.605 16.51)
+		(end 111.125 81.915)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0a38b08d-9ff4-43a8-8e0b-436405fa3292")
+	)
+	(rectangle
+		(start 14.605 84.455)
+		(end 71.755 139.065)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7f0cd578-1082-4b82-a03a-d41184df050e")
+	)
+	(rectangle
+		(start 14.605 140.97)
+		(end 101.6 194.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9cbbe5a8-8cd2-44b0-a108-5c77acd82607")
+	)
+	(rectangle
+		(start 74.295 84.455)
+		(end 125.095 131.445)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a5213587-060f-4fd5-a7ce-154d89e23241")
+	)
+	(rectangle
+		(start 161.29 15.875)
+		(end 279.4 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b9202b20-54c5-4a49-b4cf-e61cd4c240c2")
+	)
+	(text "High Power Connector"
+		(exclude_from_sim no)
+		(at 43.942 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "1dd5483f-a144-45e9-b4be-216ee65019cb")
+	)
+	(text "Decoupling Capacitors"
+		(exclude_from_sim no)
+		(at 28.448 143.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "20e30c9c-c5da-482d-8b01-b3e336d1256c")
+	)
+	(text "External Connectors"
+		(exclude_from_sim no)
+		(at 28.194 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "36538714-8c16-466d-ac86-002edfefe90c")
+	)
+	(text "Pull-Up Resistors"
+		(exclude_from_sim no)
+		(at 26.924 88.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5d10ac1d-5f28-4cb8-ba25-0c1edf84427d")
+	)
+	(text "TI MCF8316A Connections"
+		(exclude_from_sim no)
+		(at 182.372 20.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "c413c6b5-e394-48b7-9f02-845e28f346f1")
+	)
+	(text "Motor Connector\n"
+		(exclude_from_sim no)
+		(at 44.45 25.654 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "c8e4cec8-f601-4084-9bf9-9bd63007c2e5")
+	)
+	(text "Breadboard Connector"
+		(exclude_from_sim no)
+		(at 84.836 25.654 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "da4a8c34-6abd-4f77-8542-1e6753345f16")
+	)
+	(text "External Load"
+		(exclude_from_sim no)
+		(at 84.328 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "ede84e34-2783-4416-a0ac-8fe975862db1")
+	)
 	(junction
-		(at 111.76 149.86)
+		(at 105.41 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02fd89e3-af7c-4d29-a0de-a503f80b203d")
+	)
+	(junction
+		(at 257.81 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1214122b-f3e0-44b3-84fc-9606e4470761")
 	)
 	(junction
-		(at 43.18 55.88)
+		(at 92.71 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18c6eb09-96fe-4bf3-bcde-d0febd132ddd")
+	)
+	(junction
+		(at 189.23 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20d837c6-6f98-4cd2-b559-e436520f7539")
 	)
 	(junction
-		(at 111.76 139.7)
+		(at 52.07 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23c040dd-f6cb-4276-baf7-e789c1d33577")
+	)
+	(junction
+		(at 63.5 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "261f906d-da1a-4823-83b0-4ea33898ddf2")
+	)
+	(junction
+		(at 257.81 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6da8cc43-edf2-49c3-b570-2eb5accb06ad")
 	)
 	(junction
-		(at 111.76 144.78)
+		(at 257.81 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f4dbe72-2110-4305-ad87-bf630875b3a1")
 	)
 	(junction
-		(at 111.76 154.94)
+		(at 62.23 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e450466-86af-47f6-b8fc-9085fa78ebad")
+	)
+	(junction
+		(at 257.81 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82ff57ef-91b5-4a51-9445-aca8c01682e2")
 	)
 	(junction
-		(at 111.76 134.62)
+		(at 257.81 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8807fec6-85c7-4a98-809a-34ea1cf7f395")
 	)
 	(junction
-		(at 111.76 147.32)
+		(at 257.81 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "921a32cf-c643-49d8-a63b-50cb3042d434")
 	)
 	(junction
-		(at 110.49 73.66)
+		(at 63.5 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca7e3138-7f9c-43de-a28c-dcbc92c52d20")
+	)
+	(junction
+		(at 92.71 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfa63605-a902-4dc5-bdb6-aad3b2740927")
+	)
+	(junction
+		(at 256.54 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d43050e4-812d-449b-8b7e-dbe10cfdb310")
 	)
 	(junction
-		(at 110.49 86.36)
+		(at 256.54 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e91cd899-4139-4e17-a0a6-d32e85700904")
 	)
 	(junction
-		(at 110.49 99.06)
+		(at 63.5 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eab1c85a-6c6c-4a15-bea6-900ff8baa07a")
+	)
+	(junction
+		(at 256.54 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed49e53e-64ed-4c1f-bc8e-597cb96e805d")
 	)
 	(junction
-		(at 43.18 53.34)
+		(at 189.23 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbfb43c8-fedd-4dd2-abef-41da2f717997")
 	)
 	(no_connect
-		(at 50.8 134.62)
+		(at 196.85 119.38)
 		(uuid "291c75df-2cd7-43b7-addc-ff05a09fae72")
 	)
 	(no_connect
-		(at 101.6 124.46)
+		(at 247.65 109.22)
 		(uuid "4138298f-e6ce-4bb8-9d69-ee31a7dc9a95")
 	)
 	(no_connect
-		(at 50.8 119.38)
+		(at 196.85 104.14)
 		(uuid "41970703-9fe2-4935-be9f-11a92e4caeba")
 	)
 	(no_connect
-		(at 101.6 119.38)
+		(at 247.65 104.14)
 		(uuid "68a8fcd1-d93f-41e5-b2b1-1a805ab67f16")
 	)
 	(no_connect
-		(at 101.6 116.84)
+		(at 247.65 101.6)
 		(uuid "772fb121-411b-4ad0-b873-5c51ce3d2ee7")
 	)
 	(no_connect
-		(at 101.6 121.92)
+		(at 247.65 106.68)
 		(uuid "960c183a-e06f-43e5-ab7f-7ee6046e93c9")
 	)
 	(no_connect
-		(at 50.8 114.3)
+		(at 196.85 99.06)
 		(uuid "c1b2cd7f-e126-4063-8202-f5ded8ddb1fe")
 	)
 	(wire
 		(pts
-			(xy 101.6 134.62) (xy 111.76 134.62)
+			(xy 247.65 119.38) (xy 257.81 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1890,7 +3809,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 50.8) (xy 43.18 53.34)
+			(xy 189.23 35.56) (xy 189.23 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1900,7 +3819,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 39.37) (xy 247.65 39.37)
+			(xy 71.12 45.72) (xy 92.71 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1910,7 +3829,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 139.7) (xy 111.76 139.7)
+			(xy 247.65 124.46) (xy 257.81 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1920,17 +3839,17 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 63.5) (xy 50.8 63.5)
+			(xy 62.23 157.48) (xy 73.66 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04ffad41-6ff7-43c3-b7ee-747919794816")
+		(uuid "05c558e3-539f-4093-b980-810d71c33ef8")
 	)
 	(wire
 		(pts
-			(xy 25.4 152.4) (xy 50.8 152.4)
+			(xy 171.45 137.16) (xy 196.85 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1940,7 +3859,27 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 78.74) (xy 50.8 78.74)
+			(xy 45.72 115.57) (xy 63.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08eca508-136a-42ef-8460-b863f4f91492")
+	)
+	(wire
+		(pts
+			(xy 20.32 157.48) (xy 33.02 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090c9069-b3d4-45a2-b18c-a0e8402ddd76")
+	)
+	(wire
+		(pts
+			(xy 171.45 63.5) (xy 196.85 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1950,7 +3889,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 99.06) (xy 121.92 99.06)
+			(xy 256.54 83.82) (xy 267.97 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1960,7 +3899,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 59.69) (xy 247.65 59.69)
+			(xy 71.12 66.04) (xy 92.71 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1970,7 +3909,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 55.88) (xy 50.8 55.88)
+			(xy 189.23 40.64) (xy 196.85 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1980,7 +3919,27 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 73.66) (xy 110.49 73.66)
+			(xy 21.59 135.89) (xy 38.1 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18422db6-4a7f-42ff-8af4-a20bab131b59")
+	)
+	(wire
+		(pts
+			(xy 179.07 48.26) (xy 179.07 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a281393-ab02-40a1-8715-e5a99bd4a214")
+	)
+	(wire
+		(pts
+			(xy 247.65 58.42) (xy 256.54 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1990,7 +3949,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 55.88) (xy 43.18 58.42)
+			(xy 189.23 40.64) (xy 189.23 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2000,7 +3959,37 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 154.94) (xy 111.76 149.86)
+			(xy 115.57 105.41) (xy 115.57 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ece08a4-6d2a-4fcd-aea6-5971aed77c91")
+	)
+	(wire
+		(pts
+			(xy 92.71 105.41) (xy 77.47 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff712f8-2738-47b1-8a43-03457a369efa")
+	)
+	(wire
+		(pts
+			(xy 21.59 105.41) (xy 38.1 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20dfdcf0-c85b-4b38-a669-376def676f9c")
+	)
+	(wire
+		(pts
+			(xy 257.81 139.7) (xy 257.81 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2010,7 +3999,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 76.2) (xy 110.49 73.66)
+			(xy 21.59 182.88) (xy 33.02 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224a8c17-bb35-4158-860c-94af33446433")
+	)
+	(wire
+		(pts
+			(xy 256.54 60.96) (xy 256.54 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2020,7 +4019,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 53.34) (xy 43.18 55.88)
+			(xy 196.85 48.26) (xy 179.07 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270529b1-1b9e-49da-b28f-2e8538577ec1")
+	)
+	(wire
+		(pts
+			(xy 189.23 38.1) (xy 189.23 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2030,7 +4039,17 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 93.98) (xy 50.8 93.98)
+			(xy 92.71 182.88) (xy 92.71 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29016ba3-412c-401e-87ec-15f8e93a1465")
+	)
+	(wire
+		(pts
+			(xy 171.45 78.74) (xy 196.85 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2040,7 +4059,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 147.32) (xy 111.76 144.78)
+			(xy 257.81 132.08) (xy 257.81 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2050,7 +4069,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 86.36) (xy 121.92 86.36)
+			(xy 256.54 71.12) (xy 267.97 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2060,7 +4079,37 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 154.94) (xy 111.76 154.94)
+			(xy 63.5 125.73) (xy 63.5 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "311c9d7b-e79b-49ec-9ae6-227f0454153f")
+	)
+	(wire
+		(pts
+			(xy 20.32 43.18) (xy 35.56 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318f5f6e-9731-4a03-89b9-7c21643b7a8b")
+	)
+	(wire
+		(pts
+			(xy 105.41 111.76) (xy 105.41 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364f8f67-feb4-4767-9024-e57fabd81f87")
+	)
+	(wire
+		(pts
+			(xy 247.65 139.7) (xy 257.81 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2070,7 +4119,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 106.68) (xy 50.8 106.68)
+			(xy 171.45 91.44) (xy 196.85 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2080,7 +4129,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 110.49 76.2)
+			(xy 247.65 60.96) (xy 256.54 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2090,7 +4139,47 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 73.66) (xy 121.92 73.66)
+			(xy 52.07 182.88) (xy 52.07 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea9b451-bc60-4bc6-8714-36ebe0efa2a6")
+	)
+	(wire
+		(pts
+			(xy 92.71 157.48) (xy 81.28 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa046cb-cc0a-4282-a7aa-165cd8a0bfbf")
+	)
+	(wire
+		(pts
+			(xy 20.32 30.48) (xy 35.56 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff63b5f-1c8a-4f62-ac2c-5fb2f688eefb")
+	)
+	(wire
+		(pts
+			(xy 81.28 170.18) (xy 92.71 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "402a8636-6491-48bf-be7c-a48d014cd82d")
+	)
+	(wire
+		(pts
+			(xy 256.54 58.42) (xy 267.97 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2100,7 +4189,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 99.06) (xy 110.49 99.06)
+			(xy 247.65 83.82) (xy 256.54 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2110,7 +4199,27 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 144.78) (xy 111.76 139.7)
+			(xy 63.5 100.33) (xy 63.5 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4afba826-ddec-40ff-a72d-78df8f830ba6")
+	)
+	(wire
+		(pts
+			(xy 35.56 30.48) (xy 35.56 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4def545a-4a94-4aad-8eaf-d70d54a7a0e6")
+	)
+	(wire
+		(pts
+			(xy 257.81 129.54) (xy 257.81 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2120,7 +4229,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 53.34) (xy 50.8 53.34)
+			(xy 62.23 170.18) (xy 73.66 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52659792-5121-420d-85cc-48ea323da016")
+	)
+	(wire
+		(pts
+			(xy 189.23 38.1) (xy 196.85 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2130,7 +4249,37 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 149.86) (xy 111.76 149.86)
+			(xy 92.71 170.18) (xy 92.71 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54fd783c-7be5-4204-b8a6-e01bdbe33e3b")
+	)
+	(wire
+		(pts
+			(xy 35.56 39.37) (xy 41.91 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8f1b1a-15b3-4b78-ba67-f3034e3df918")
+	)
+	(wire
+		(pts
+			(xy 85.09 38.1) (xy 92.71 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b039fa8-0584-4a59-9ec4-8b38febd03d2")
+	)
+	(wire
+		(pts
+			(xy 247.65 134.62) (xy 257.81 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2140,7 +4289,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 52.07) (xy 247.65 52.07)
+			(xy 71.12 58.42) (xy 92.71 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2150,7 +4299,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 49.53) (xy 247.65 49.53)
+			(xy 71.12 55.88) (xy 92.71 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2160,7 +4309,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 83.82) (xy 50.8 83.82)
+			(xy 171.45 68.58) (xy 196.85 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2170,7 +4319,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 154.94) (xy 50.8 154.94)
+			(xy 171.45 139.7) (xy 196.85 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2180,17 +4329,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 31.75) (xy 247.65 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6848ad21-e299-4468-995e-6cd9f84c52d4")
-	)
-	(wire
-		(pts
-			(xy 101.6 147.32) (xy 111.76 147.32)
+			(xy 247.65 132.08) (xy 257.81 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2200,7 +4339,17 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 73.66) (xy 50.8 73.66)
+			(xy 92.71 152.4) (xy 92.71 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72040a7d-d702-4c19-ae13-9161bef84b58")
+	)
+	(wire
+		(pts
+			(xy 171.45 58.42) (xy 196.85 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2210,7 +4359,87 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 116.84) (xy 50.8 116.84)
+			(xy 21.59 170.18) (xy 33.02 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e7dab6-a659-450a-8883-87fe7192cd8a")
+	)
+	(wire
+		(pts
+			(xy 21.59 115.57) (xy 38.1 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73800b9b-b87b-4e29-845a-3ec2858faf4e")
+	)
+	(wire
+		(pts
+			(xy 81.28 182.88) (xy 92.71 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7490db43-fb18-450f-8d98-a83f5c7a5d76")
+	)
+	(wire
+		(pts
+			(xy 33.02 69.85) (xy 33.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77683027-eb34-495f-908a-996146d6b233")
+	)
+	(wire
+		(pts
+			(xy 52.07 186.69) (xy 52.07 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78983f1c-6ee7-4e66-9313-50071b52952b")
+	)
+	(wire
+		(pts
+			(xy 45.72 125.73) (xy 63.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c2a69d-06a6-4807-8960-2b794f7b8dd9")
+	)
+	(wire
+		(pts
+			(xy 35.56 43.18) (xy 35.56 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e326db-e0a6-4a88-aa3f-48a28fe27bb7")
+	)
+	(wire
+		(pts
+			(xy 85.09 34.29) (xy 85.09 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bca58f1-2eee-4beb-8967-0a9dc1fa1094")
+	)
+	(wire
+		(pts
+			(xy 171.45 101.6) (xy 196.85 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2220,7 +4449,27 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 53.34) (xy 121.92 53.34)
+			(xy 62.23 182.88) (xy 62.23 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ea70ea-e2a9-47ba-96ab-d5a66da2bc5f")
+	)
+	(wire
+		(pts
+			(xy 33.02 63.5) (xy 39.37 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857a17a1-d107-400e-8b0c-9d09813c3913")
+	)
+	(wire
+		(pts
+			(xy 247.65 38.1) (xy 267.97 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2230,7 +4479,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 41.91) (xy 247.65 41.91)
+			(xy 71.12 48.26) (xy 92.71 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2240,7 +4489,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 88.9) (xy 110.49 88.9)
+			(xy 247.65 73.66) (xy 256.54 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2250,7 +4499,27 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 54.61) (xy 247.65 54.61)
+			(xy 33.02 66.04) (xy 39.37 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8b1e99-36a1-4c6a-8029-ddd6782a8891")
+	)
+	(wire
+		(pts
+			(xy 45.72 135.89) (xy 63.5 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b9214f2-add4-4b98-87b5-4f0c1a6e150c")
+	)
+	(wire
+		(pts
+			(xy 71.12 60.96) (xy 92.71 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2260,7 +4529,27 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 34.29) (xy 247.65 34.29)
+			(xy 62.23 186.69) (xy 62.23 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d9b23c-848e-4647-bb88-2650a6a0a8d3")
+	)
+	(wire
+		(pts
+			(xy 52.07 157.48) (xy 40.64 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a568b997-395a-4037-80d6-9c835e350272")
+	)
+	(wire
+		(pts
+			(xy 71.12 40.64) (xy 92.71 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2270,7 +4559,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 63.5) (xy 121.92 63.5)
+			(xy 247.65 48.26) (xy 267.97 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2280,7 +4569,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 124.46) (xy 50.8 124.46)
+			(xy 171.45 109.22) (xy 196.85 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2290,7 +4579,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 134.62) (xy 111.76 129.54)
+			(xy 257.81 119.38) (xy 257.81 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2300,7 +4589,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 149.86) (xy 111.76 147.32)
+			(xy 257.81 134.62) (xy 257.81 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2310,7 +4599,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 109.22) (xy 50.8 109.22)
+			(xy 171.45 93.98) (xy 196.85 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2320,7 +4609,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 58.42) (xy 50.8 58.42)
+			(xy 35.56 34.29) (xy 41.91 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb6da34-4864-422b-91fd-70332a2e3c3f")
+	)
+	(wire
+		(pts
+			(xy 189.23 43.18) (xy 196.85 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2330,7 +4629,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 144.78) (xy 111.76 144.78)
+			(xy 247.65 129.54) (xy 257.81 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2340,7 +4639,27 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 88.9) (xy 50.8 88.9)
+			(xy 63.5 125.73) (xy 63.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b36d3330-46be-44ab-9ec1-f1352aeca250")
+	)
+	(wire
+		(pts
+			(xy 52.07 170.18) (xy 40.64 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50d7809-d22b-4013-b93e-f6e7bd298331")
+	)
+	(wire
+		(pts
+			(xy 171.45 73.66) (xy 196.85 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2350,7 +4669,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 36.83) (xy 247.65 36.83)
+			(xy 71.12 43.18) (xy 92.71 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2360,7 +4679,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 144.78) (xy 50.8 144.78)
+			(xy 171.45 129.54) (xy 196.85 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2370,7 +4689,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 86.36) (xy 110.49 86.36)
+			(xy 247.65 71.12) (xy 256.54 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2380,7 +4699,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 158.75) (xy 111.76 154.94)
+			(xy 62.23 182.88) (xy 73.66 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5fd71cf-9822-461d-8eb4-77f88b901ebe")
+	)
+	(wire
+		(pts
+			(xy 257.81 143.51) (xy 257.81 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2390,7 +4719,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 46.99) (xy 247.65 46.99)
+			(xy 71.12 53.34) (xy 92.71 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2400,7 +4729,17 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 62.23) (xy 247.65 62.23)
+			(xy 105.41 105.41) (xy 115.57 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce116da1-b914-4958-b7cc-8b04095d5462")
+	)
+	(wire
+		(pts
+			(xy 86.36 68.58) (xy 92.71 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2410,7 +4749,27 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 57.15) (xy 247.65 57.15)
+			(xy 105.41 119.38) (xy 105.41 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5518587-4d8c-4185-bbce-9f0e77021f3e")
+	)
+	(wire
+		(pts
+			(xy 63.5 115.57) (xy 63.5 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8673a1e-7b90-4a66-9af9-07838972deb8")
+	)
+	(wire
+		(pts
+			(xy 71.12 63.5) (xy 92.71 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2420,7 +4779,27 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 44.45) (xy 247.65 44.45)
+			(xy 21.59 125.73) (xy 38.1 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2972e38-7271-4f7f-be0d-9675a847b59d")
+	)
+	(wire
+		(pts
+			(xy 63.5 105.41) (xy 45.72 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f5c41c-ed22-455f-a1a1-e5ff58335b0b")
+	)
+	(wire
+		(pts
+			(xy 71.12 50.8) (xy 92.71 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2430,7 +4809,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 101.6) (xy 110.49 99.06)
+			(xy 256.54 86.36) (xy 256.54 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2440,7 +4819,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 139.7) (xy 111.76 134.62)
+			(xy 257.81 124.46) (xy 257.81 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2450,7 +4829,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 67.31) (xy 241.3 62.23)
+			(xy 86.36 73.66) (xy 86.36 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2460,7 +4839,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 101.6) (xy 110.49 101.6)
+			(xy 247.65 86.36) (xy 256.54 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2470,7 +4849,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 129.54) (xy 101.6 129.54)
+			(xy 105.41 105.41) (xy 100.33 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f4999d-74c8-458b-8e9e-d5610c6d4b1f")
+	)
+	(wire
+		(pts
+			(xy 257.81 114.3) (xy 247.65 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2480,7 +4869,37 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 88.9) (xy 110.49 86.36)
+			(xy 40.64 182.88) (xy 52.07 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5785b64-2429-4188-a92f-bbd08c5da97f")
+	)
+	(wire
+		(pts
+			(xy 20.32 36.83) (xy 41.91 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc77490a-f976-46d7-aafe-17c62c0c2786")
+	)
+	(wire
+		(pts
+			(xy 33.02 59.69) (xy 33.02 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd3af2e-b504-4010-a2a5-0df21cfe7584")
+	)
+	(wire
+		(pts
+			(xy 256.54 73.66) (xy 256.54 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2490,7 +4909,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 101.6) (xy 50.8 101.6)
+			(xy 171.45 86.36) (xy 196.85 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2500,7 +4919,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 139.7) (xy 50.8 139.7)
+			(xy 171.45 124.46) (xy 196.85 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2509,7 +4928,7 @@
 		(uuid "ff1a83ee-c40c-4149-8d66-204b3dfe840b")
 	)
 	(label "AVDD"
-		(at 25.4 73.66 0)
+		(at 171.45 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2519,7 +4938,7 @@
 		(uuid "01f55b9d-b31f-4936-9b03-cbb6fe5fea7b")
 	)
 	(label "SW_BK"
-		(at 121.92 53.34 180)
+		(at 267.97 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2528,8 +4947,38 @@
 		)
 		(uuid "063cd25a-ab55-463c-8472-8c9365f04ab1")
 	)
+	(label "AVDD"
+		(at 21.59 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a0a15ad-d5bf-47f6-94e6-19e04dd3effe")
+	)
 	(label "CPH"
-		(at 25.4 83.82 0)
+		(at 20.32 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d91e4f6-ba73-4143-8937-95939952cde4")
+	)
+	(label "FAULT_N"
+		(at 21.59 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bc5d362-eab7-45d0-bc0c-ac9b14c3d789")
+	)
+	(label "CPH"
+		(at 171.45 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2539,7 +4988,7 @@
 		(uuid "1d9f5137-6744-4eec-a9dd-e27a52d22877")
 	)
 	(label "I2C_SCL"
-		(at 226.06 57.15 0)
+		(at 71.12 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2548,18 +4997,8 @@
 		)
 		(uuid "20fd57c9-f78f-4ce2-9bb8-f8e642f74b5a")
 	)
-	(label "EXTERNAL_LOAD"
-		(at 226.06 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22646ec1-6096-4ffb-9dad-9f3ac0d98c91")
-	)
 	(label "CPL"
-		(at 25.4 88.9 0)
+		(at 171.45 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2569,7 +5008,7 @@
 		(uuid "27848438-b06f-484c-b25f-ec97dcfa3d65")
 	)
 	(label "SOX"
-		(at 226.06 49.53 0)
+		(at 71.12 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2579,7 +5018,7 @@
 		(uuid "2bf046a5-6826-47f0-8853-7a090a420f17")
 	)
 	(label "FG"
-		(at 226.06 52.07 0)
+		(at 71.12 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2589,7 +5028,7 @@
 		(uuid "2d5b58a4-e71d-41d2-a4c9-504ac2c7cb71")
 	)
 	(label "EXT_WD"
-		(at 226.06 46.99 0)
+		(at 71.12 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2599,7 +5038,7 @@
 		(uuid "377365c0-41e7-42e4-be29-2df041c714eb")
 	)
 	(label "SOX"
-		(at 25.4 116.84 0)
+		(at 171.45 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2609,7 +5048,7 @@
 		(uuid "3894e74a-a9a9-4a7b-b8c5-40278e71d374")
 	)
 	(label "FAULT_N"
-		(at 25.4 144.78 0)
+		(at 171.45 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2618,8 +5057,18 @@
 		)
 		(uuid "3f922be9-3f7c-4a1b-b16b-c6378e4dace7")
 	)
+	(label "OUT_B"
+		(at 20.32 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e3cb4e7-e3ab-4895-923b-34470320df20")
+	)
 	(label "FG"
-		(at 25.4 139.7 0)
+		(at 171.45 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2629,7 +5078,7 @@
 		(uuid "542aa338-5aac-47b8-a0ad-d91b8f97ea5d")
 	)
 	(label "FAULT_N"
-		(at 226.06 54.61 0)
+		(at 71.12 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2639,7 +5088,7 @@
 		(uuid "56f2f3a1-4e99-4c8b-a3e0-55939a6fb805")
 	)
 	(label "DVDD"
-		(at 25.4 78.74 0)
+		(at 171.45 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2648,8 +5097,18 @@
 		)
 		(uuid "5b7c2216-277f-4517-b323-327f90ffa7e3")
 	)
+	(label "CPL"
+		(at 52.07 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ceb0fc6-fa9f-42cf-89c0-14e50dbcd9f3")
+	)
 	(label "I2C_SDA"
-		(at 226.06 59.69 0)
+		(at 71.12 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2659,7 +5118,7 @@
 		(uuid "5d5bf43a-17f1-4995-adf7-f194cb8ffb33")
 	)
 	(label "I2C_SDA"
-		(at 25.4 154.94 0)
+		(at 171.45 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2668,18 +5127,8 @@
 		)
 		(uuid "64921929-6fbf-4986-8ca4-2a2705996c12")
 	)
-	(label "EXTERNAL_LOAD"
-		(at 25.4 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "675cf65f-88f3-4ec7-b983-2cc606c5b79b")
-	)
 	(label "DIR"
-		(at 226.06 41.91 0)
+		(at 71.12 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2688,8 +5137,18 @@
 		)
 		(uuid "694d5e38-3a13-45e4-8441-ec1427ffbf80")
 	)
+	(label "SW_BK"
+		(at 77.47 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bcc6204-e7a5-4f21-bd48-e188e0abd26f")
+	)
 	(label "DRVOFF"
-		(at 121.92 63.5 180)
+		(at 267.97 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2698,8 +5157,28 @@
 		)
 		(uuid "6d443e20-84ed-4af9-bb17-fa6a714f00fa")
 	)
+	(label "I2C_SCL"
+		(at 21.59 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e3fdaa3-2d2a-4af7-a3e7-b1dadc93548c")
+	)
 	(label "OUT_C"
-		(at 121.92 99.06 180)
+		(at 20.32 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79ed7875-c049-4174-8fa7-dd64cee79afd")
+	)
+	(label "OUT_C"
+		(at 267.97 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2708,8 +5187,18 @@
 		)
 		(uuid "7a529abd-1f1f-427d-b341-bc2cf954a80b")
 	)
+	(label "I2C_SDA"
+		(at 21.59 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88e316d9-1719-44cd-9197-531d1482dc1f")
+	)
 	(label "BRAKE"
-		(at 226.06 39.37 0)
+		(at 71.12 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2718,8 +5207,18 @@
 		)
 		(uuid "8c05fd36-27d4-4e5c-9bea-8ae6fc83c39b")
 	)
+	(label "DVDD"
+		(at 21.59 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d293a3f-01ae-4253-8e97-9410619b0518")
+	)
 	(label "CP"
-		(at 25.4 93.98 0)
+		(at 171.45 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2729,7 +5228,7 @@
 		(uuid "945b2907-cab4-4106-9c24-f3ebe0741e93")
 	)
 	(label "SPEED_WAKE"
-		(at 226.06 34.29 0)
+		(at 71.12 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2739,7 +5238,7 @@
 		(uuid "a490e0c4-f9ed-4476-bb43-77869d32fc51")
 	)
 	(label "OUT_A"
-		(at 121.92 73.66 180)
+		(at 267.97 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2749,7 +5248,7 @@
 		(uuid "b6cb75d4-0911-46b7-80ac-6663983d5b27")
 	)
 	(label "DIR"
-		(at 25.4 124.46 0)
+		(at 171.45 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2759,7 +5258,7 @@
 		(uuid "bac8c84d-4f72-44ec-8e15-1adeb132b54b")
 	)
 	(label "OUT_B"
-		(at 121.92 86.36 180)
+		(at 267.97 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2768,8 +5267,18 @@
 		)
 		(uuid "c316cf23-250e-4d4e-8c72-40efad3c3cdf")
 	)
+	(label "CP"
+		(at 62.23 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb8b5d50-d3d4-47c8-b1df-3f9e8508290c")
+	)
 	(label "EXT_CLK"
-		(at 226.06 44.45 0)
+		(at 71.12 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2779,7 +5288,7 @@
 		(uuid "d1c038ce-20c4-4e74-9930-a64f209d9544")
 	)
 	(label "EXT_WD"
-		(at 25.4 106.68 0)
+		(at 171.45 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2789,7 +5298,7 @@
 		(uuid "d54f46e8-ebd7-483c-a1b5-0cedc8a90b8f")
 	)
 	(label "DRVOFF"
-		(at 226.06 36.83 0)
+		(at 71.12 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2799,7 +5308,7 @@
 		(uuid "d6d07a0e-ec3d-4e88-bf4b-2c32df105301")
 	)
 	(label "I2C_SCL"
-		(at 25.4 152.4 0)
+		(at 171.45 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2809,7 +5318,7 @@
 		(uuid "e12741dd-1ad8-4f35-8abf-98185efc556d")
 	)
 	(label "EXT_CLK"
-		(at 25.4 109.22 0)
+		(at 171.45 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2818,8 +5327,28 @@
 		)
 		(uuid "e7966ac9-0c05-4de1-86ee-d261cee55350")
 	)
+	(label "FG"
+		(at 21.59 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed389fb1-914c-414d-96e0-453adadae749")
+	)
+	(label "OUT_A"
+		(at 20.32 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f06053e2-c8c1-4e56-b3f5-983d1a708fbd")
+	)
 	(label "SPEED_WAKE"
-		(at 25.4 101.6 0)
+		(at 171.45 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2829,8 +5358,86 @@
 		(uuid "f983a505-e15c-470c-ba79-b12295ccb4fa")
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 115.57 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0faf49dd-f322-42ff-97c5-a92713295568")
+		(property "Reference" "#PWR09"
+			(at 115.57 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 115.57 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 115.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fca37f90-be8d-4f80-95b3-b0f7bbd083dd")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:TI_MCF8316A")
-		(at 76.2 100.33 0)
+		(at 222.25 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2841,7 +5448,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d56efc6-95b7-4a52-9b1e-db42668a88c2")
 		(property "Reference" "U1"
-			(at 76.2 43.18 0)
+			(at 222.25 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2851,7 +5458,7 @@
 			)
 		)
 		(property "Value" "TI_MCF8316A"
-			(at 76.2 45.72 0)
+			(at 222.25 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2861,7 +5468,7 @@
 			)
 		)
 		(property "Footprint" "uwmtr-thruster-control-board-hw-footprints:TI_MCF8316A"
-			(at 50.8 53.34 0)
+			(at 196.85 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2873,7 +5480,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/mcf8316a"
-			(at 50.8 53.34 0)
+			(at 196.85 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2885,7 +5492,7 @@
 			)
 		)
 		(property "Description" "FOC Motor Driver for 3-Phase BLDC Motors"
-			(at 76.2 100.33 0)
+			(at 222.25 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2896,7 +5503,7 @@
 			)
 		)
 		(property "LCSC" "C3681167"
-			(at 76.2 100.33 0)
+			(at 222.25 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3039,8 +5646,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 111.76 158.75 0)
+		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:CL31B105KAHNNNE")
+		(at 36.83 170.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3049,10 +5656,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4fcae675-bda4-42b2-aab6-b2202e8b48fb")
-		(property "Reference" "#PWR02"
-			(at 111.76 165.1 0)
-			(hide yes)
+		(uuid "4218cd47-d7d3-485d-81d1-e9f73ec5822b")
+		(property "Reference" "CL31B105KAHNNNE2"
+			(at 36.83 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3061,8 +5667,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 111.76 163.83 0)
+		(property "Value" "1uF"
+			(at 36.83 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3071,8 +5677,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 111.76 158.75 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 33.02 171.1452 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3083,7 +5689,99 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 158.75 0)
+			(at 36.83 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 36.83 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C28322"
+			(at 36.83 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c85fb23-8ab6-4869-93e2-cb2fe8aa5703")
+		)
+		(pin "2"
+			(uuid "715014de-4c21-4164-9330-35e7a4045254")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "CL31B105KAHNNNE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fcae675-bda4-42b2-aab6-b2202e8b48fb")
+		(property "Reference" "#PWR02"
+			(at 257.81 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3094,7 +5792,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 158.75 0)
+			(at 257.81 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3117,9 +5815,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x13_Pin")
-		(at 252.73 46.99 0)
-		(mirror y)
+		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:KM107M050F12RR0VH2FP0")
+		(at 77.47 182.88 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3127,9 +5825,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8ea56ec1-517c-474d-8949-5ee17b287be8")
-		(property "Reference" "J1"
-			(at 252.095 26.67 0)
+		(uuid "51dde779-ba4d-4344-8acc-70724b1f4b6c")
+		(property "Reference" "KM107M050F12RR0VH2FP1"
+			(at 78.359 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3138,8 +5836,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x13_Pin"
-			(at 252.095 29.21 0)
+		(property "Value" "100uF"
+			(at 78.359 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3148,8 +5846,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x13_P2.54mm_Vertical"
-			(at 252.73 46.99 0)
+		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
+			(at 73.66 181.9148 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,7 +5858,885 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 46.99 0)
+			(at 77.47 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 77.47 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2749"
+			(at 77.47 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ea061398-9c75-4de9-a5bc-535d302891df")
+		)
+		(pin "1"
+			(uuid "ae4fdb0a-d8f3-442b-b131-f442da1fd835")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "KM107M050F12RR0VH2FP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 33.02 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53feb890-9fc0-4f22-8271-5d90183550b0")
+		(property "Reference" "#PWR04"
+			(at 33.02 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 33.02 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 33.02 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0244424c-2b3d-4793-bd40-e39e45f13720")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:CS3216X5R226K160NRI")
+		(at 105.41 115.57 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5bab6f2a-08f9-4daa-9bf0-6b004e39984a")
+		(property "Reference" "CS3216X5R226K160NRI1"
+			(at 101.6 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 101.6 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 104.4448 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 105.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C513771"
+			(at 105.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9eb7d2de-dab8-45ec-a93b-e986ce93e264")
+		)
+		(pin "1"
+			(uuid "e27890c4-13b2-4d1f-becb-0445b89fd918")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "CS3216X5R226K160NRI1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:1206W4F5101T5E")
+		(at 41.91 135.89 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "627c2113-6845-4330-901c-e831d0a6b6dd")
+		(property "Reference" "1206W4F5101T5E4"
+			(at 41.91 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1kR"
+			(at 41.91 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 41.91 137.668 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C26033"
+			(at 41.91 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "61818e2f-3328-488c-aa30-6d81f498ef8f")
+		)
+		(pin "1"
+			(uuid "44f92019-a629-4f84-91b8-a32523180520")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "1206W4F5101T5E4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 92.71 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "660c1eaa-55c6-4965-9c18-bd6d4c778c63")
+		(property "Reference" "#PWR012"
+			(at 92.71 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 92.71 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 92.71 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f1e9a6c-6eba-473c-96f8-e0ac73b505fa")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:1206W4F5101T5E")
+		(at 41.91 105.41 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66382b1f-63a5-4f0f-89c7-cafc9e8595c3")
+		(property "Reference" "1206W4F5101T5E1"
+			(at 41.91 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1kR"
+			(at 41.91 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 41.91 107.188 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C26033"
+			(at 41.91 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ffc2f06c-2894-462f-8e48-9dd2a28601f4")
+		)
+		(pin "1"
+			(uuid "356a5306-3547-4ec7-8c57-c0bb7ddfb007")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "1206W4F5101T5E1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:FRC1206F22R0TS")
+		(at 96.52 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a7f5c5d-04de-42d4-8df9-7e4879949f39")
+		(property "Reference" "FRC1206F22R0TS1"
+			(at 96.52 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 96.52 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 96.52 107.188 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2933647"
+			(at 96.52 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7c41a831-b869-4d9e-a525-10877aeb05bf")
+		)
+		(pin "1"
+			(uuid "ea8821e1-7c19-43fa-a337-9cada3f32031")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "FRC1206F22R0TS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:691137710002")
+		(at 44.45 66.04 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7faa854d-d64b-4561-a28d-c127e4064489")
+		(property "Reference" "J3"
+			(at 45.72 63.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "691137710002"
+			(at 45.72 66.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "uwmtr-thruster-control-board-hw-footprints:691137710002"
+			(at 44.45 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "167bf6a9-5d93-4464-819b-dd7eb12be2e2")
+		)
+		(pin "2"
+			(uuid "dd3f27d4-67e2-40fc-ac1c-ae1531da0766")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:CL31B105KAHNNNE")
+		(at 77.47 157.48 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80922dc9-3912-4daa-9ab0-5c7e67975608")
+		(property "Reference" "CL31B105KAHNNNE1"
+			(at 77.47 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 77.47 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 73.66 158.4452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.47 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C28322"
+			(at 77.47 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15e0ff56-2c16-49a0-ad4e-041ccffbc8b9")
+		)
+		(pin "2"
+			(uuid "2e0e3f9c-3d97-4922-bafd-fafa62b7bf65")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "CL31B105KAHNNNE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:CL31B104KCFNNNE")
+		(at 77.47 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c98688d-3b9e-48c7-a3a6-9e4426d5ff0c")
+		(property "Reference" "CL31B104KCFNNNE1"
+			(at 77.47 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 77.47 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 81.28 169.2148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.47 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1945"
+			(at 77.47 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c44ad8a4-623a-4b95-8c7e-af19fad6f303")
+		)
+		(pin "1"
+			(uuid "35f4aa0e-44f5-4be2-9406-f81095acce60")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "CL31B104KCFNNNE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x13_Pin")
+		(at 97.79 53.34 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ea56ec1-517c-474d-8949-5ee17b287be8")
+		(property "Reference" "J1"
+			(at 97.155 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x13_Pin"
+			(at 97.155 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x13_P2.54mm_Vertical"
+			(at 97.79 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3171,7 +6747,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x13, script generated"
-			(at 252.73 46.99 0)
+			(at 97.79 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3230,8 +6806,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 43.18 50.8 0)
+		(lib_id "power:+3.3V")
+		(at 63.5 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3240,9 +6816,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9578b393-01ea-4a49-bee3-3a52ac9fe911")
-		(property "Reference" "#PWR01"
-			(at 43.18 54.61 0)
+		(uuid "8fa9ef31-76f7-4c1d-8d23-68157176239a")
+		(property "Reference" "#PWR010"
+			(at 63.5 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3252,8 +6828,8 @@
 				)
 			)
 		)
-		(property "Value" "+24V"
-			(at 43.18 45.72 0)
+		(property "Value" "+3.3V"
+			(at 63.5 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3263,7 +6839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 50.8 0)
+			(at 63.5 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3274,7 +6850,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 50.8 0)
+			(at 63.5 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 63.5 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc12ac97-b3c7-4ab4-9852-c81af5986a83")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 189.23 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9578b393-01ea-4a49-bee3-3a52ac9fe911")
+		(property "Reference" "#PWR01"
+			(at 189.23 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 189.23 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3285,7 +6939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 43.18 50.8 0)
+			(at 189.23 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3308,8 +6962,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 241.3 67.31 0)
+		(lib_id "power:+3.3V")
+		(at 179.07 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3318,9 +6972,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a14587d0-226a-4374-a3dc-82d747137610")
-		(property "Reference" "#PWR03"
-			(at 241.3 73.66 0)
+		(uuid "97adc53e-5f2f-4477-a518-9d09cf83fd0c")
+		(property "Reference" "#PWR07"
+			(at 179.07 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3330,8 +6984,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 241.3 72.39 0)
+		(property "Value" "+3.3V"
+			(at 179.07 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3341,7 +6995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 67.31 0)
+			(at 179.07 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3352,7 +7006,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 67.31 0)
+			(at 179.07 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 179.07 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31d6012f-a5ad-4137-8080-a066cffaf030")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c00ba7e-5d32-4c58-a6ed-6de55292176a")
+		(property "Reference" "#PWR08"
+			(at 105.41 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3363,7 +7095,85 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 67.31 0)
+			(at 105.41 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05950ac3-b328-455d-b52a-4397d0a52c95")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a14587d0-226a-4374-a3dc-82d747137610")
+		(property "Reference" "#PWR03"
+			(at 86.36 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3380,6 +7190,768 @@
 			(project "uwmtr-thruster-control-board-hw"
 				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 85.09 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c49a2447-9de4-4135-9260-b4c54c14076f")
+		(property "Reference" "#PWR06"
+			(at 85.09 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 85.09 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 85.09 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c05bfa9-78a2-4fb9-8a4e-12d4a25d665a")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5e0f78a-c800-41f9-a2b3-6af63750adbb")
+		(property "Reference" "#PWR013"
+			(at 62.23 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae170f3d-1a3a-4b3e-b6bd-f50e6b068b1e")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:1206W4F5101T5E")
+		(at 41.91 125.73 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c66869bc-177e-4b9b-a47c-1ab281a62032")
+		(property "Reference" "1206W4F5101T5E3"
+			(at 41.91 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1kR"
+			(at 41.91 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 41.91 127.508 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C26033"
+			(at 41.91 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a814a376-a902-460f-bd6f-e21e632e7606")
+		)
+		(pin "1"
+			(uuid "016311c0-9c32-43bc-86df-4c1035bd22f8")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "1206W4F5101T5E3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc1950cf-a657-49d9-9c3d-899669e33438")
+		(property "Reference" "#PWR05"
+			(at 33.02 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2d40272-c645-4d01-954a-029ac511b85f")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:691137710003")
+		(at 46.99 36.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d56f7dd2-43ab-42e7-a1c5-31d07f26c385")
+		(property "Reference" "J2"
+			(at 48.26 35.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "691137710003"
+			(at 48.26 38.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "691137710003:691137710003"
+			(at 46.99 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4727e22b-2396-46e6-bfda-c795dac06219")
+		)
+		(pin "3"
+			(uuid "701522ed-d7f6-45be-9a95-d6ac3c255371")
+		)
+		(pin "2"
+			(uuid "4da3c429-673e-4ad1-947f-44fd96382418")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:1206W4F5101T5E")
+		(at 41.91 115.57 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e016cef6-bf1e-4a72-9e41-6da7789763e2")
+		(property "Reference" "1206W4F5101T5E2"
+			(at 41.91 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1kR"
+			(at 41.91 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 41.91 117.348 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C26033"
+			(at 41.91 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e18b4831-1259-4f82-8058-2fa1344fedf9")
+		)
+		(pin "1"
+			(uuid "8f450390-4487-4f10-8e91-f590450c3062")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "1206W4F5101T5E2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e46bf248-403e-44ff-bf52-2125aa7380ce")
+		(property "Reference" "#PWR011"
+			(at 52.07 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40c0c6c2-6e20-4987-b7e3-1893a4c82455")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:CL31B105KAHNNNE")
+		(at 36.83 182.88 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e54cf151-a5b0-4f2a-af2f-8da8fec62466")
+		(property "Reference" "CL31B105KAHNNNE3"
+			(at 36.83 175.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 36.83 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 33.02 183.8452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 36.83 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C28322"
+			(at 36.83 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cc85a57-a4aa-4cfe-9c29-eafc3e8eb5a4")
+		)
+		(pin "2"
+			(uuid "a50180d5-5dee-4d40-afd9-a6c474c03f68")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "CL31B105KAHNNNE3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:1206B473K500NT")
+		(at 36.83 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e55df12b-215f-4616-a7a8-670c43ada36d")
+		(property "Reference" "1206B473K500NT1"
+			(at 36.83 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47nF"
+			(at 36.83 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 40.64 156.5148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 36.83 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1870"
+			(at 36.83 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f656c3e8-dc96-473f-8a62-fbb7a8db7628")
+		)
+		(pin "1"
+			(uuid "ad397e3c-b463-44e0-aeaf-2aca990629ab")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "1206B473K500NT1")
 					(unit 1)
 				)
 			)
