@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "uwmtr-thruster-control-board-hw-footprints") (type "KiCad") (uri "${KIPRJMOD}/uwmtr-thruster-control-board-hw-footprints.pretty") (options "") (descr ""))
+)
