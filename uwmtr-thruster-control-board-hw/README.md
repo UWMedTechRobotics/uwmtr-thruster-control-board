@@ -7,3 +7,5 @@
     | 0b01 | 4.6 < 5.0 < 5.4 |
     | 0b10 | 3.7 < 4.0 < 4.3 |
     | 0b11 | 5.2 < 5.7 < 6.2 | 
+
+- Source THT 22R 1W resistor for buck converter with.

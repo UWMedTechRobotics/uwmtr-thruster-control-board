@@ -20,8 +20,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 17.78 0)
+			(property "Reference" "J1"
+				(at 0 21.844 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -31,7 +31,7 @@
 				)
 			)
 			(property "Value" "Conn_01x13_Pin"
-				(at 0 -17.78 0)
+				(at 0.254 19.558 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -40,7 +40,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x13_P2.54mm_Vertical"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -406,9 +406,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 15.24 180)
+					(at 5.08 -15.24 180)
 					(length 3.81)
-					(name "Pin_1"
+					(name "Pin_13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -424,9 +424,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 12.7 180)
+					(at 5.08 -12.7 180)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -442,9 +442,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 10.16 180)
+					(at 5.08 -10.16 180)
 					(length 3.81)
-					(name "Pin_3"
+					(name "Pin_11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -460,9 +460,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 7.62 180)
+					(at 5.08 -7.62 180)
 					(length 3.81)
-					(name "Pin_4"
+					(name "Pin_10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -478,9 +478,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 180)
+					(at 5.08 -5.08 180)
 					(length 3.81)
-					(name "Pin_5"
+					(name "Pin_9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -496,9 +496,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 -2.54 180)
 					(length 3.81)
-					(name "Pin_6"
+					(name "Pin_8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -532,9 +532,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 2.54 180)
 					(length 3.81)
-					(name "Pin_8"
+					(name "Pin_6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -550,9 +550,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at 5.08 5.08 180)
 					(length 3.81)
-					(name "Pin_9"
+					(name "Pin_5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -568,9 +568,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -7.62 180)
+					(at 5.08 7.62 180)
 					(length 3.81)
-					(name "Pin_10"
+					(name "Pin_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -586,9 +586,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -10.16 180)
+					(at 5.08 10.16 180)
 					(length 3.81)
-					(name "Pin_11"
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -604,9 +604,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -12.7 180)
+					(at 5.08 12.7 180)
 					(length 3.81)
-					(name "Pin_12"
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -622,9 +622,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -15.24 180)
+					(at 5.08 15.24 180)
 					(length 3.81)
-					(name "Pin_13"
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -632,6 +632,146 @@
 						)
 					)
 					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2390,157 +2530,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "uwmtr-thruster-control-board-hw-custom-symbols:FRC1206F22R0TS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FRC1206F22R0TS"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "22R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLCPCB Part #" "C2933647"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FRC1206F22R0TS_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FRC1206F22R0TS_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "uwmtr-thruster-control-board-hw-custom-symbols:KM107M050F12RR0VH2FP0"
 			(pin_numbers
 				(hide yes)
@@ -3958,7 +3947,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 45.72) (xy 92.71 45.72)
+			(xy 80.01 62.23) (xy 93.98 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4008,7 +3997,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 157.48) (xy 33.02 157.48)
+			(xy 21.59 157.48) (xy 33.02 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4038,7 +4027,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 66.04) (xy 92.71 66.04)
+			(xy 80.01 67.31) (xy 93.98 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4098,7 +4087,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 45.72) (xy 68.58 40.64)
+			(xy 69.85 44.45) (xy 69.85 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4408,6 +4397,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 100.33) (xy 63.5 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59011a88-b0b6-466e-aa9b-09f95f40f37a")
+	)
+	(wire
+		(pts
 			(xy 35.56 39.37) (xy 41.91 39.37)
 		)
 		(stroke
@@ -4418,7 +4417,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 38.1) (xy 92.71 38.1)
+			(xy 69.85 69.85) (xy 93.98 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4438,7 +4437,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 58.42) (xy 92.71 58.42)
+			(xy 80.01 46.99) (xy 93.98 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4458,7 +4457,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 55.88) (xy 92.71 55.88)
+			(xy 80.01 64.77) (xy 93.98 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4588,7 +4587,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 33.02) (xy 68.58 38.1)
+			(xy 69.85 64.77) (xy 69.85 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4628,7 +4627,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 40.64) (xy 92.71 40.64)
+			(xy 69.85 39.37) (xy 93.98 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4658,7 +4657,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 48.26) (xy 92.71 48.26)
+			(xy 80.01 59.69) (xy 93.98 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4698,7 +4697,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 60.96) (xy 92.71 60.96)
+			(xy 80.01 49.53) (xy 93.98 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4848,7 +4847,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 43.18) (xy 92.71 43.18)
+			(xy 80.01 41.91) (xy 93.98 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4898,7 +4897,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 53.34) (xy 92.71 53.34)
+			(xy 80.01 54.61) (xy 93.98 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4918,7 +4917,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 68.58) (xy 92.71 68.58)
+			(xy 80.01 44.45) (xy 93.98 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4948,7 +4947,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 63.5) (xy 92.71 63.5)
+			(xy 80.01 52.07) (xy 93.98 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4978,7 +4977,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 50.8) (xy 92.71 50.8)
+			(xy 80.01 57.15) (xy 93.98 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5137,7 +5136,7 @@
 		(uuid "0a0a15ad-d5bf-47f6-94e6-19e04dd3effe")
 	)
 	(label "CPH"
-		(at 20.32 157.48 0)
+		(at 21.59 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5167,7 +5166,7 @@
 		(uuid "1d9f5137-6744-4eec-a9dd-e27a52d22877")
 	)
 	(label "I2C_SCL"
-		(at 78.74 63.5 0)
+		(at 80.01 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5187,7 +5186,7 @@
 		(uuid "27848438-b06f-484c-b25f-ec97dcfa3d65")
 	)
 	(label "SOX"
-		(at 78.74 55.88 0)
+		(at 80.01 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5197,7 +5196,7 @@
 		(uuid "2bf046a5-6826-47f0-8853-7a090a420f17")
 	)
 	(label "FG"
-		(at 78.74 58.42 0)
+		(at 80.01 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5207,7 +5206,7 @@
 		(uuid "2d5b58a4-e71d-41d2-a4c9-504ac2c7cb71")
 	)
 	(label "EXT_WD"
-		(at 78.74 53.34 0)
+		(at 80.01 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5227,7 +5226,7 @@
 		(uuid "3894e74a-a9a9-4a7b-b8c5-40278e71d374")
 	)
 	(label "FAULT_N"
-		(at 78.74 66.04 0)
+		(at 80.01 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5245,6 +5244,16 @@
 			(justify left bottom)
 		)
 		(uuid "3f922be9-3f7c-4a1b-b16b-c6378e4dace7")
+	)
+	(label "AVDD"
+		(at 58.42 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4102c253-43ab-439e-9f21-5fc960c47c1c")
 	)
 	(label "OUT_B"
 		(at 20.32 36.83 0)
@@ -5287,7 +5296,7 @@
 		(uuid "5ceb0fc6-fa9f-42cf-89c0-14e50dbcd9f3")
 	)
 	(label "I2C_SDA"
-		(at 78.74 60.96 0)
+		(at 80.01 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5307,7 +5316,7 @@
 		(uuid "64921929-6fbf-4986-8ca4-2a2705996c12")
 	)
 	(label "DIR"
-		(at 78.74 48.26 0)
+		(at 80.01 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5317,7 +5326,7 @@
 		(uuid "694d5e38-3a13-45e4-8441-ec1427ffbf80")
 	)
 	(label "SPEED_WAKE"
-		(at 78.74 68.58 0)
+		(at 80.01 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5387,7 +5396,7 @@
 		(uuid "88e316d9-1719-44cd-9197-531d1482dc1f")
 	)
 	(label "BRAKE"
-		(at 78.74 45.72 0)
+		(at 80.01 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5457,7 +5466,7 @@
 		(uuid "cb8b5d50-d3d4-47c8-b1df-3f9e8508290c")
 	)
 	(label "EXT_CLK"
-		(at 78.74 50.8 0)
+		(at 80.01 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5487,7 +5496,7 @@
 		(uuid "d54f46e8-ebd7-483c-a1b5-0cedc8a90b8f")
 	)
 	(label "DRVOFF"
-		(at 78.74 43.18 0)
+		(at 80.01 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5829,6 +5838,119 @@
 			(project "uwmtr-thruster-control-board-hw"
 				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x13_Pin")
+		(at 99.06 54.61 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3cb6dc77-9ac7-4da1-b918-cece20c0b300")
+		(property "Reference" "J1"
+			(at 99.06 32.766 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x13_Pin"
+			(at 98.806 35.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x13_P2.54mm_Vertical"
+			(at 99.06 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x13, script generated"
+			(at 99.06 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "8e5de730-205d-40ca-957d-df55aa8eaea9")
+		)
+		(pin "10"
+			(uuid "60ef0d43-5a5b-4a4b-84e1-9a92d3a84932")
+		)
+		(pin "11"
+			(uuid "cf3964ce-42e1-41c3-b6e6-ea6ecc92d10f")
+		)
+		(pin "9"
+			(uuid "ca8dd2fb-7208-4ed5-b03c-59b88c9ce8cd")
+		)
+		(pin "8"
+			(uuid "0595d507-ab7c-4a23-aefa-0ee7bb27798d")
+		)
+		(pin "12"
+			(uuid "d1b8ab64-5709-4023-9a2b-bad33a3b65ce")
+		)
+		(pin "1"
+			(uuid "a1e14949-937d-416a-93e3-fcee0bcde9ce")
+		)
+		(pin "2"
+			(uuid "b0384df2-cb97-4e12-9bdf-50a74d56af58")
+		)
+		(pin "3"
+			(uuid "45d248da-55ae-49c1-9b22-b7761b1c7d43")
+		)
+		(pin "4"
+			(uuid "bb9e6b43-c623-4889-877c-29acc0870459")
+		)
+		(pin "5"
+			(uuid "e8c87e66-7f4a-45f1-90a0-9ba5f5095cbb")
+		)
+		(pin "6"
+			(uuid "4f2deebe-8f6d-4e9f-8047-f8c177604e68")
+		)
+		(pin "7"
+			(uuid "2acc1e63-9759-401a-8232-6c1083237b14")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6604,97 +6726,6 @@
 		)
 	)
 	(symbol
-		(lib_id "uwmtr-thruster-control-board-hw-custom-symbols:FRC1206F22R0TS")
-		(at 96.52 105.41 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a7f5c5d-04de-42d4-8df9-7e4879949f39")
-		(property "Reference" "FRC1206F22R0TS1"
-			(at 96.52 99.06 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 96.52 101.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 96.52 107.188 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 96.52 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C2933647"
-			(at 96.52 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7c41a831-b869-4d9e-a525-10877aeb05bf")
-		)
-		(pin "1"
-			(uuid "ea8821e1-7c19-43fa-a337-9cada3f32031")
-		)
-		(instances
-			(project "uwmtr-thruster-control-board-hw"
-				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
-					(reference "FRC1206F22R0TS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 140.97 161.29 0)
 		(unit 1)
@@ -6852,7 +6883,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 45.72 0)
+		(at 69.85 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6863,7 +6894,7 @@
 		(fields_autoplaced yes)
 		(uuid "77f8fcf5-3365-4a48-ba24-29f9171a63d2")
 		(property "Reference" "#PWR03"
-			(at 68.58 52.07 0)
+			(at 69.85 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6874,7 +6905,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 50.8 0)
+			(at 69.85 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6884,7 +6915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 45.72 0)
+			(at 69.85 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6895,7 +6926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 45.72 0)
+			(at 69.85 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6906,7 +6937,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 45.72 0)
+			(at 69.85 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7350,197 +7381,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x13_Pin")
-		(at 97.79 53.34 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8ea56ec1-517c-474d-8949-5ee17b287be8")
-		(property "Reference" "J1"
-			(at 97.79 31.496 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x13_Pin"
-			(at 97.536 33.782 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x13_P2.54mm_Vertical"
-			(at 97.79 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x13, script generated"
-			(at 97.79 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "13"
-			(uuid "7680a098-8600-4187-a7b1-ee0cab15b4a4")
-		)
-		(pin "10"
-			(uuid "6ffeee44-6dad-4526-91c9-286143ab1659")
-		)
-		(pin "11"
-			(uuid "df31807a-8b46-4e4e-98d0-aa39fa103e9b")
-		)
-		(pin "9"
-			(uuid "3c034880-bad3-4ed5-b89c-3f9fb793eb61")
-		)
-		(pin "8"
-			(uuid "1f2b1818-74b3-4f91-9bb1-5aa03ac87db3")
-		)
-		(pin "12"
-			(uuid "c52f1f4c-0809-4344-8f53-70f35b232f0d")
-		)
-		(pin "1"
-			(uuid "68a73214-aabd-4e1c-886c-608866522f92")
-		)
-		(pin "2"
-			(uuid "017a0654-0f9b-4b37-92c6-9d279b7a90c0")
-		)
-		(pin "3"
-			(uuid "77c750b9-275b-4e68-b44d-ed4dfe58e92e")
-		)
-		(pin "4"
-			(uuid "74e64574-0d32-4ce2-aa7b-900b1f8dc463")
-		)
-		(pin "5"
-			(uuid "2ca99630-3980-4934-ad0d-be10a236ef52")
-		)
-		(pin "6"
-			(uuid "880db54c-5674-4ce3-b09a-3fea942f8fcf")
-		)
-		(pin "7"
-			(uuid "19ee2f76-38a8-4fbb-ac8b-c5c6457159ee")
-		)
-		(instances
-			(project "uwmtr-thruster-control-board-hw"
-				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 63.5 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fa9ef31-76f7-4c1d-8d23-68157176239a")
-		(property "Reference" "#PWR010"
-			(at 63.5 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 63.5 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 63.5 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dc12ac97-b3c7-4ab4-9852-c81af5986a83")
-		)
-		(instances
-			(project "uwmtr-thruster-control-board-hw"
-				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 189.23 35.56 0)
 		(unit 1)
@@ -7775,8 +7615,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 68.58 33.02 0)
+		(lib_id "Device:R")
+		(at 96.52 105.41 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7785,10 +7625,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c49a2447-9de4-4135-9260-b4c54c14076f")
-		(property "Reference" "#PWR06"
-			(at 68.58 36.83 0)
-			(hide yes)
+		(uuid "af530b56-27e2-4fa9-8438-fed64253d480")
+		(property "Reference" "R1"
+			(at 96.52 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7797,8 +7636,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 68.58 27.94 0)
+		(property "Value" "22Ω"
+			(at 96.52 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7807,8 +7646,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 68.58 33.02 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 96.52 107.188 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7819,7 +7658,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 33.02 0)
+			(at 96.52 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "058b7a14-b80b-4209-9ee4-5c248c84bad4")
+		)
+		(pin "2"
+			(uuid "44a8d6a9-4595-4d78-ad68-a66c51142076")
+		)
+		(instances
+			(project "uwmtr-thruster-control-board-hw"
+				(path "/ace3e0af-7a20-48f4-b109-5dd1a82bf53f"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 69.85 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c49a2447-9de4-4135-9260-b4c54c14076f")
+		(property "Reference" "#PWR06"
+			(at 69.85 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 69.85 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7830,7 +7750,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 68.58 33.02 0)
+			(at 69.85 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
