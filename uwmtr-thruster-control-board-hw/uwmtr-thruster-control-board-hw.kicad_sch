@@ -5205,6 +5205,16 @@
 		)
 		(uuid "2d5b58a4-e71d-41d2-a4c9-504ac2c7cb71")
 	)
+	(label "OUT_C"
+		(at 20.32 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30026fe4-88a9-43f3-ab10-71618e6a5c0d")
+	)
 	(label "EXT_WD"
 		(at 80.01 54.61 0)
 		(effects
@@ -5255,15 +5265,15 @@
 		)
 		(uuid "4102c253-43ab-439e-9f21-5fc960c47c1c")
 	)
-	(label "OUT_B"
-		(at 20.32 36.83 0)
+	(label "OUT_A"
+		(at 20.32 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4e3cb4e7-e3ab-4895-923b-34470320df20")
+		(uuid "4e0bb612-e2f2-47d2-8326-b4ca05b4825b")
 	)
 	(label "FG"
 		(at 171.45 124.46 0)
@@ -5364,16 +5374,6 @@
 			(justify left bottom)
 		)
 		(uuid "6e3fdaa3-2d2a-4af7-a3e7-b1dadc93548c")
-	)
-	(label "OUT_C"
-		(at 20.32 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79ed7875-c049-4174-8fa7-dd64cee79afd")
 	)
 	(label "OUT_C"
 		(at 267.97 83.82 180)
@@ -5515,6 +5515,16 @@
 		)
 		(uuid "e12741dd-1ad8-4f35-8abf-98185efc556d")
 	)
+	(label "OUT_B"
+		(at 20.32 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e28f224e-172f-4d4d-9512-afd7455019b0")
+	)
 	(label "EXT_CLK"
 		(at 171.45 93.98 0)
 		(effects
@@ -5534,16 +5544,6 @@
 			(justify left bottom)
 		)
 		(uuid "ed389fb1-914c-414d-96e0-453adadae749")
-	)
-	(label "OUT_A"
-		(at 20.32 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f06053e2-c8c1-4e56-b3f5-983d1a708fbd")
 	)
 	(label "SPEED_WAKE"
 		(at 171.45 86.36 0)
