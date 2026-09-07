@@ -539,7 +539,7 @@
       "netlist": "",
       "plot": "uwmtr-thruster-control-board-hw-assembly/drills/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "uwmtr-thruster-control-board-hw-assembly/3d-models/uwmtr-thruster-control-board-hw.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
